@@ -5,3 +5,4 @@ do
 	echo $file
 	cp $file /home/amir/Documents/PT/ProgrammingTechnologies/BackUpStorage/$(basename $file)
 done
+echo done
