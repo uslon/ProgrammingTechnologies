@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 'print catalogue name' $directory 
+directory=$1
 mkdir $directory
 files=$(find /home -name \*.cpp -or -name \*.py)
 for file in $files 
