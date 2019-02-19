@@ -7,14 +7,8 @@ mkdir $directory
 
 for var in $@
 do
-	lst=(${lst[@]} $var)
-done
-for var in ${lst[@]}
-do
-	files=$(find /home -name "*.$var")
-	for file in $files 
+	for file in $(find /home -name "*.$var") 
 	do
-		#echo $file
 		nfile=$(basename $file)
 		path=/home/amir/Documents/PT/ProgrammingTechnologies/$directory
 		if [ -e $path/$(basename $file) ]
@@ -27,7 +21,6 @@ do
 			nfile=$nfile$cnt
 		fi
 		cp $file $path/$nfile
-		#cp $file /home/amir/Documents/PT/ProgrammingTechnologies/BackUpStorage/$(basename $file)
 	done
 done
 tar -czf $archive.tar.gz ./$directory
