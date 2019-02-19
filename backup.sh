@@ -15,9 +15,21 @@ do
 	for file in $files 
 	do
 		#echo $file
-		cp $file /home/amir/Documents/PT/ProgrammingTechnologies/$directory/$(basename $file)
+		nfile=$(basename $file)
+		path=/home/amir/Documents/PT/ProgrammingTechnologies/$directory
+		if [ -e $path/$(basename $file) ]
+		then
+			cnt=1
+			while [ -e $path/$nfile$cnt ]
+			do
+				((cnt++))
+			done
+			nfile=$nfile$cnt
+		fi
+		cp $file $path/$nfile
 		#cp $file /home/amir/Documents/PT/ProgrammingTechnologies/BackUpStorage/$(basename $file)
 	done
 done
-tar -cvzf $archive.tar.gz ./$directory
+tar -czf $archive.tar.gz ./$directory
 echo done
+
