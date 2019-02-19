@@ -19,4 +19,5 @@ do
 		#cp $file /home/amir/Documents/PT/ProgrammingTechnologies/BackUpStorage/$(basename $file)
 	done
 done
+tar -cvzf $archive.tar.gz ./$directory
 echo done
