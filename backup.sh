@@ -1,10 +1,26 @@
 #!/bin/bash
 directory=$1
+archive=$2
+shift
+shift
 mkdir $directory
-files=$(find /home -name \*.cpp -or -name \*.py)
-for file in $files 
+
+for var in $@
 do
-	cp $file /home/amir/Documents/PT/ProgrammingTechnologies/$directory/$(basename $file)
-	#cp $file /home/amir/Documents/PT/ProgrammingTechnologies/BackUpStorage/$(basename $file)
+	lst=(${lst[@]} $var)
+done
+for var in ${lst[@]}
+do
+	echo "$var "
+done
+for var in ${lst[@]}
+do
+	files=$(find /home -name "*.$var")
+	for file in $files 
+	do
+		echo $file
+		cp $file /home/amir/Documents/PT/ProgrammingTechnologies/$directory/$(basename $file)
+		#cp $file /home/amir/Documents/PT/ProgrammingTechnologies/BackUpStorage/$(basename $file)
+	done
 done
 echo done
