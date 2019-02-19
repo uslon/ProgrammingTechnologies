@@ -4,7 +4,6 @@ archive=$2
 shift
 shift
 mkdir $directory
-
 for var in $@
 do
 	for file in $(find /home -name "*.$var") 
