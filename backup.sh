@@ -11,14 +11,10 @@ do
 done
 for var in ${lst[@]}
 do
-	echo "$var "
-done
-for var in ${lst[@]}
-do
 	files=$(find /home -name "*.$var")
 	for file in $files 
 	do
-		echo $file
+		#echo $file
 		cp $file /home/amir/Documents/PT/ProgrammingTechnologies/$directory/$(basename $file)
 		#cp $file /home/amir/Documents/PT/ProgrammingTechnologies/BackUpStorage/$(basename $file)
 	done
