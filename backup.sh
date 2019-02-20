@@ -3,10 +3,15 @@ directory=$1
 archive=$2
 shift
 shift
-mkdir $directory
+if [ ! -d $directory ];
+then
+	mkdir $directory
+fi
+
 for var in $@
 do
-	for file in $(find /home -name "*.$var") 
+	files=$(find /home -name "*.$var")
+	for file in $files 
 	do
 		nfile=$(basename $file)
 		path=/home/amir/Documents/PT/ProgrammingTechnologies/$directory
