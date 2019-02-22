@@ -14,15 +14,16 @@ do
 	for file in $files 
 	do
 		nfile=$(basename $file)
+		shortname=${nfile%.*}
 		path=/home/amir/Documents/PT/ProgrammingTechnologies/$directory
-		if [ -e $path/$(basename $file) ]
+		if [ -e $path/$nfile ]
 		then
 			cnt=1
-			while [ -e $path/$nfile$cnt ]
+			while [ -e $path/"$shortname($cnt).$var" ]
 			do
 				((cnt++))
 			done
-			nfile=$nfile$cnt
+			nfile="$shortname($cnt).$var"
 		fi
 		cp $file $path/$nfile
 	done
