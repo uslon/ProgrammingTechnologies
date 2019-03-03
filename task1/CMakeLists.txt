@@ -1,0 +1,8 @@
+cmake_minimum_required (VERSION 2.8)
+project(First_task)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}-std=c++11 -Wall")
+set(SOURCE "./C/main.cpp")
+include_directories("C")
+add_subdirectory("B")
+execute_process(COMMAND python3 "A/preparing.py")
+add_executable(First_task ${SOURCE})
