@@ -1,0 +1,2 @@
+/home/amir/Documents/PT/ProgrammingTechnologies/B/CMakeFiles/rebuild_cache.dir
+/home/amir/Documents/PT/ProgrammingTechnologies/B/CMakeFiles/edit_cache.dir
