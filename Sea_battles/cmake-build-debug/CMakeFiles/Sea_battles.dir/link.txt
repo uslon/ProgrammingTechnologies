@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Sea_battles.dir/main.cpp.o CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o CMakeFiles/Sea_battles.dir/Metrics/Metrics.cpp.o CMakeFiles/Sea_battles.dir/Object.cpp.o  -o Sea_battles 

@@ -1,0 +1,4 @@
+/home/amir/snap/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug

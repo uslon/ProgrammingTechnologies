@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Metrics/Metrics.h
+
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Object.h
+Metrics/Metrics.h
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Metrics/Metrics.h
+
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Ship_classes/Ships.cpp
+Ships.h
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Ship_classes/Ships.h
+
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Ship_classes/Ships.h
+vector
+-
+../Metrics/Metrics.h
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Metrics/Metrics.h
+../Object.h
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Object.h
+
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/main.cpp
+iostream
+-
+Ship_classes/Ships.h
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Ship_classes/Ships.h
+
