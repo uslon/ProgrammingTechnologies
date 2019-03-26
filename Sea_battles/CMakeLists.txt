@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++0x")
 
-add_executable(Sea_battles main.cpp Ships_classes/Ships.cpp Metrics/Metrics.h Metrics/Metrics.cpp Object.h Object.cpp check_ships.cpp Buildings_classes/Buildings.h Buildings_classes/Buildings.cpp)
+add_executable(Sea_battles main.cpp Objects/Ships_classes/Ships.cpp Metrics/Metrics.h Metrics/Metrics.cpp Objects/Object.h Objects/Object.cpp check_ships.cpp Objects/Buildings_classes/Buildings.h Objects/Buildings_classes/Buildings.cpp)
 
 add_subdirectory(googletest-master)
 

@@ -3,7 +3,7 @@
 //
 
 
-#include "Ships_classes/Ships.h"
+#include "Objects/Ships_classes/Ships.h"
 #include "googletest-master/googletest/include/gtest/gtest.h"
 
 TEST (sample_test, first) {

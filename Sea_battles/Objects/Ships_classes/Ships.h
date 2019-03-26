@@ -1,6 +1,6 @@
 #pragma once
 #include <vector>
-#include "../Metrics/Metrics.h"
+#include "../../Metrics/Metrics.h"
 #include "../Object.h"
 
 class Ship : public Object {
@@ -97,4 +97,32 @@ public:
     void attack (Object * object) final;
     void is_alive() final;
     ~Scandinavian_heavy_ship() final = default;
+};
+
+
+class Ship_factory {
+
+public:
+    virtual Colonists_ship * create_colonists_ship() = 0;
+    virtual Light_ship * create_light_ship() = 0;
+    virtual Heavy_ship * create_heavy_ship() = 0;
+    virtual ~Ship_factory() = default;
+};
+
+class Japanese_ship_factory : public Ship_factory {
+
+public:
+    Colonists_ship * create_colonists_ship() final { return new Japanese_colonists_ship; }
+    Light_ship * create_light_ship() final { return new Japanese_light_ship; }
+    Heavy_ship * create_heavy_ship() final { return new Japanese_heavy_ship; }
+    ~Japanese_ship_factory() = default;
+};
+
+class Scandinavian_ship_factory : public Ship_factory {
+
+public:
+    Colonists_ship * create_colonists_ship() final { return new Scandinavian_colonists_ship; }
+    Light_ship * create_light_ship() final { return new Scandinavian_light_ship; }
+    Heavy_ship * create_heavy_ship() final { return new Scandinavian_heavy_ship; }
+    ~Scandinavian_ship_factory() = default;
 };

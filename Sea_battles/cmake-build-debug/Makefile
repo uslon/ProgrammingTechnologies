@@ -221,33 +221,6 @@ gtest/fast:
 	$(MAKE) -f googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-Buildings_classes/Buildings.o: Buildings_classes/Buildings.cpp.o
-
-.PHONY : Buildings_classes/Buildings.o
-
-# target to build an object file
-Buildings_classes/Buildings.cpp.o:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Buildings_classes/Buildings.cpp.o
-.PHONY : Buildings_classes/Buildings.cpp.o
-
-Buildings_classes/Buildings.i: Buildings_classes/Buildings.cpp.i
-
-.PHONY : Buildings_classes/Buildings.i
-
-# target to preprocess a source file
-Buildings_classes/Buildings.cpp.i:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Buildings_classes/Buildings.cpp.i
-.PHONY : Buildings_classes/Buildings.cpp.i
-
-Buildings_classes/Buildings.s: Buildings_classes/Buildings.cpp.s
-
-.PHONY : Buildings_classes/Buildings.s
-
-# target to generate assembly for a file
-Buildings_classes/Buildings.cpp.s:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Buildings_classes/Buildings.cpp.s
-.PHONY : Buildings_classes/Buildings.cpp.s
-
 Metrics/Metrics.o: Metrics/Metrics.cpp.o
 
 .PHONY : Metrics/Metrics.o
@@ -275,59 +248,86 @@ Metrics/Metrics.cpp.s:
 	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Metrics/Metrics.cpp.s
 .PHONY : Metrics/Metrics.cpp.s
 
-Object.o: Object.cpp.o
+Objects/Buildings_classes/Buildings.o: Objects/Buildings_classes/Buildings.cpp.o
 
-.PHONY : Object.o
-
-# target to build an object file
-Object.cpp.o:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Object.cpp.o
-.PHONY : Object.cpp.o
-
-Object.i: Object.cpp.i
-
-.PHONY : Object.i
-
-# target to preprocess a source file
-Object.cpp.i:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Object.cpp.i
-.PHONY : Object.cpp.i
-
-Object.s: Object.cpp.s
-
-.PHONY : Object.s
-
-# target to generate assembly for a file
-Object.cpp.s:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Object.cpp.s
-.PHONY : Object.cpp.s
-
-Ships_classes/Ships.o: Ships_classes/Ships.cpp.o
-
-.PHONY : Ships_classes/Ships.o
+.PHONY : Objects/Buildings_classes/Buildings.o
 
 # target to build an object file
-Ships_classes/Ships.cpp.o:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o
-.PHONY : Ships_classes/Ships.cpp.o
+Objects/Buildings_classes/Buildings.cpp.o:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Objects/Buildings_classes/Buildings.cpp.o
+.PHONY : Objects/Buildings_classes/Buildings.cpp.o
 
-Ships_classes/Ships.i: Ships_classes/Ships.cpp.i
+Objects/Buildings_classes/Buildings.i: Objects/Buildings_classes/Buildings.cpp.i
 
-.PHONY : Ships_classes/Ships.i
+.PHONY : Objects/Buildings_classes/Buildings.i
 
 # target to preprocess a source file
-Ships_classes/Ships.cpp.i:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.i
-.PHONY : Ships_classes/Ships.cpp.i
+Objects/Buildings_classes/Buildings.cpp.i:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Objects/Buildings_classes/Buildings.cpp.i
+.PHONY : Objects/Buildings_classes/Buildings.cpp.i
 
-Ships_classes/Ships.s: Ships_classes/Ships.cpp.s
+Objects/Buildings_classes/Buildings.s: Objects/Buildings_classes/Buildings.cpp.s
 
-.PHONY : Ships_classes/Ships.s
+.PHONY : Objects/Buildings_classes/Buildings.s
 
 # target to generate assembly for a file
-Ships_classes/Ships.cpp.s:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.s
-.PHONY : Ships_classes/Ships.cpp.s
+Objects/Buildings_classes/Buildings.cpp.s:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Objects/Buildings_classes/Buildings.cpp.s
+.PHONY : Objects/Buildings_classes/Buildings.cpp.s
+
+Objects/Object.o: Objects/Object.cpp.o
+
+.PHONY : Objects/Object.o
+
+# target to build an object file
+Objects/Object.cpp.o:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Objects/Object.cpp.o
+.PHONY : Objects/Object.cpp.o
+
+Objects/Object.i: Objects/Object.cpp.i
+
+.PHONY : Objects/Object.i
+
+# target to preprocess a source file
+Objects/Object.cpp.i:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Objects/Object.cpp.i
+.PHONY : Objects/Object.cpp.i
+
+Objects/Object.s: Objects/Object.cpp.s
+
+.PHONY : Objects/Object.s
+
+# target to generate assembly for a file
+Objects/Object.cpp.s:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Objects/Object.cpp.s
+.PHONY : Objects/Object.cpp.s
+
+Objects/Ships_classes/Ships.o: Objects/Ships_classes/Ships.cpp.o
+
+.PHONY : Objects/Ships_classes/Ships.o
+
+# target to build an object file
+Objects/Ships_classes/Ships.cpp.o:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Objects/Ships_classes/Ships.cpp.o
+.PHONY : Objects/Ships_classes/Ships.cpp.o
+
+Objects/Ships_classes/Ships.i: Objects/Ships_classes/Ships.cpp.i
+
+.PHONY : Objects/Ships_classes/Ships.i
+
+# target to preprocess a source file
+Objects/Ships_classes/Ships.cpp.i:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Objects/Ships_classes/Ships.cpp.i
+.PHONY : Objects/Ships_classes/Ships.cpp.i
+
+Objects/Ships_classes/Ships.s: Objects/Ships_classes/Ships.cpp.s
+
+.PHONY : Objects/Ships_classes/Ships.s
+
+# target to generate assembly for a file
+Objects/Ships_classes/Ships.cpp.s:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Objects/Ships_classes/Ships.cpp.s
+.PHONY : Objects/Ships_classes/Ships.cpp.s
 
 check_ships.o: check_ships.cpp.o
 
@@ -400,18 +400,18 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... Buildings_classes/Buildings.o"
-	@echo "... Buildings_classes/Buildings.i"
-	@echo "... Buildings_classes/Buildings.s"
 	@echo "... Metrics/Metrics.o"
 	@echo "... Metrics/Metrics.i"
 	@echo "... Metrics/Metrics.s"
-	@echo "... Object.o"
-	@echo "... Object.i"
-	@echo "... Object.s"
-	@echo "... Ships_classes/Ships.o"
-	@echo "... Ships_classes/Ships.i"
-	@echo "... Ships_classes/Ships.s"
+	@echo "... Objects/Buildings_classes/Buildings.o"
+	@echo "... Objects/Buildings_classes/Buildings.i"
+	@echo "... Objects/Buildings_classes/Buildings.s"
+	@echo "... Objects/Object.o"
+	@echo "... Objects/Object.i"
+	@echo "... Objects/Object.s"
+	@echo "... Objects/Ships_classes/Ships.o"
+	@echo "... Objects/Ships_classes/Ships.i"
+	@echo "... Objects/Ships_classes/Ships.s"
 	@echo "... check_ships.o"
 	@echo "... check_ships.i"
 	@echo "... check_ships.s"

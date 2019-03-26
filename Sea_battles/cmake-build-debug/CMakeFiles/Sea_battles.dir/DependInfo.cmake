@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Buildings_classes/Buildings.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Buildings_classes/Buildings.cpp.o"
   "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Metrics/Metrics.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Metrics/Metrics.cpp.o"
-  "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Object.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Object.cpp.o"
-  "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Ships_classes/Ships.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o"
+  "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Buildings_classes/Buildings.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Objects/Buildings_classes/Buildings.cpp.o"
+  "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Object.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Objects/Object.cpp.o"
+  "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Ships_classes/Ships.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Objects/Ships_classes/Ships.cpp.o"
   "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/check_ships.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/check_ships.cpp.o"
   "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/main.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/main.cpp.o"
   )
