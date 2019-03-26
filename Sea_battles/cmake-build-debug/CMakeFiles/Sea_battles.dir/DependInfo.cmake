@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Object.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Object.cpp.o"
   "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Ship_classes/Ships.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o"
   "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/main.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/main.cpp.o"
+  "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/test.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

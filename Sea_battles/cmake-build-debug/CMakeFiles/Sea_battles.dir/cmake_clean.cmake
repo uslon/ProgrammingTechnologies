@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o"
   "CMakeFiles/Sea_battles.dir/Metrics/Metrics.cpp.o"
   "CMakeFiles/Sea_battles.dir/Object.cpp.o"
+  "CMakeFiles/Sea_battles.dir/test.cpp.o"
   "Sea_battles.pdb"
   "Sea_battles"
 )

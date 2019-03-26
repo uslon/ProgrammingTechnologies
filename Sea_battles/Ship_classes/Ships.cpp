@@ -16,22 +16,43 @@ void Ship::move () {
     }
 }
 
-void Colonists_ship::create_base() {
+void Japanese_colonists_ship::create_base() {
     delete this;
 }
 
-void Colonists_ship::attack(Object * object) {
+void Scandinavian_colonists_ship::create_base() {
+    delete this;
+}
+
+void Japanese_colonists_ship::attack(Object * object) {
     return;
 }
 
-void Light_ship::attack (Object * object) {
+void Scandinavian_colonists_ship::attack(Object * object) {
+    return;
+}
+
+
+void Japanese_light_ship::attack (Object * object) {
+    if (square_dist(_position, object->get_position()) > _range * _range)
+        return;
+    object->change_hp(-_dmg);
+}
+
+void Scandinavian_light_ship::attack (Object * object) {
     if (square_dist(_position, object->get_position()) > _range * _range)
         return;
     object->change_hp(-_dmg);
 }
 
 
-void Heavy_ship::attack (Object * object) {
+void Japanese_heavy_ship::attack (Object * object) {
+    if (square_dist(_position, object->get_position()) > _range * _range)
+        return;
+    object->change_hp(-_dmg);
+}
+
+void Scandinavian_heavy_ship::attack (Object * object) {
     if (square_dist(_position, object->get_position()) > _range * _range)
         return;
     object->change_hp(-_dmg);
