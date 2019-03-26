@@ -5,4 +5,8 @@ set(CMAKE_CXX_STANDARD 14)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++0x")
 
-add_executable(Sea_battles main.cpp Ship_classes/Ships.cpp Metrics/Metrics.h Metrics/Metrics.cpp Object.h Object.cpp test.cpp)
+add_executable(Sea_battles main.cpp Ships_classes/Ships.cpp Metrics/Metrics.h Metrics/Metrics.cpp Object.h Object.cpp check_ships.cpp)
+
+add_subdirectory(googletest-master)
+
+target_link_libraries(Sea_battles gtest gtest_main)

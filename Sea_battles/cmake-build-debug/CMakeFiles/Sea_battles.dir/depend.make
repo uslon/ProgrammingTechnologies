@@ -8,13 +8,19 @@ CMakeFiles/Sea_battles.dir/Object.cpp.o: ../Metrics/Metrics.h
 CMakeFiles/Sea_battles.dir/Object.cpp.o: ../Object.cpp
 CMakeFiles/Sea_battles.dir/Object.cpp.o: ../Object.h
 
-CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o: ../Metrics/Metrics.h
-CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o: ../Object.h
-CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o: ../Ship_classes/Ships.cpp
-CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o: ../Ship_classes/Ships.h
+CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o: ../Metrics/Metrics.h
+CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o: ../Object.h
+CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o: ../Ships_classes/Ships.cpp
+CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o: ../Ships_classes/Ships.h
+
+CMakeFiles/Sea_battles.dir/check_ships.cpp.o: ../Metrics/Metrics.h
+CMakeFiles/Sea_battles.dir/check_ships.cpp.o: ../Object.h
+CMakeFiles/Sea_battles.dir/check_ships.cpp.o: ../Ships_classes/Ships.h
+CMakeFiles/Sea_battles.dir/check_ships.cpp.o: ../check_ships.cpp
+CMakeFiles/Sea_battles.dir/check_ships.cpp.o: ../googletest-master/googletest/include/gtest/gtest.h
 
 CMakeFiles/Sea_battles.dir/main.cpp.o: ../Metrics/Metrics.h
 CMakeFiles/Sea_battles.dir/main.cpp.o: ../Object.h
-CMakeFiles/Sea_battles.dir/main.cpp.o: ../Ship_classes/Ships.h
+CMakeFiles/Sea_battles.dir/main.cpp.o: ../Ships_classes/Ships.h
 CMakeFiles/Sea_battles.dir/main.cpp.o: ../main.cpp
 

@@ -1,11 +1,11 @@
 #include <iostream>
-#include "Ship_classes/Ships.h"
+#include "Ships_classes/Ships.h"
 
 using std::cin;
 using std::cout;
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    auto Aurora = new Light_ship;
+    auto Aurora = new Japanese_light_ship;
     Ship * Kolberg = Aurora;
 }

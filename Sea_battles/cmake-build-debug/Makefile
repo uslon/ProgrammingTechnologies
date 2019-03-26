@@ -56,16 +56,17 @@ CMAKE_BINARY_DIR = /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/c
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/amir/snap/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/amir/snap/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/amir/snap/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target edit_cache
 edit_cache:
@@ -77,6 +78,51 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/amir/snap/clion-2018.3.4/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/home/amir/snap/clion-2018.3.4/bin/cmake/linux/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/amir/snap/clion-2018.3.4/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/amir/snap/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/amir/snap/clion-2018.3.4/bin/cmake/linux/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -122,6 +168,58 @@ Sea_battles: cmake_check_build_system
 Sea_battles/fast:
 	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/build
 .PHONY : Sea_battles/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) -f googletest-master/googlemock/CMakeFiles/gmock_main.dir/build.make googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gmock
+
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) -f googletest-master/googlemock/CMakeFiles/gmock.dir/build.make googletest-master/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make googletest-master/googlemock/gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
 
 Metrics/Metrics.o: Metrics/Metrics.cpp.o
 
@@ -177,32 +275,59 @@ Object.cpp.s:
 	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Object.cpp.s
 .PHONY : Object.cpp.s
 
-Ship_classes/Ships.o: Ship_classes/Ships.cpp.o
+Ships_classes/Ships.o: Ships_classes/Ships.cpp.o
 
-.PHONY : Ship_classes/Ships.o
+.PHONY : Ships_classes/Ships.o
 
 # target to build an object file
-Ship_classes/Ships.cpp.o:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o
-.PHONY : Ship_classes/Ships.cpp.o
+Ships_classes/Ships.cpp.o:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o
+.PHONY : Ships_classes/Ships.cpp.o
 
-Ship_classes/Ships.i: Ship_classes/Ships.cpp.i
+Ships_classes/Ships.i: Ships_classes/Ships.cpp.i
 
-.PHONY : Ship_classes/Ships.i
+.PHONY : Ships_classes/Ships.i
 
 # target to preprocess a source file
-Ship_classes/Ships.cpp.i:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.i
-.PHONY : Ship_classes/Ships.cpp.i
+Ships_classes/Ships.cpp.i:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.i
+.PHONY : Ships_classes/Ships.cpp.i
 
-Ship_classes/Ships.s: Ship_classes/Ships.cpp.s
+Ships_classes/Ships.s: Ships_classes/Ships.cpp.s
 
-.PHONY : Ship_classes/Ships.s
+.PHONY : Ships_classes/Ships.s
 
 # target to generate assembly for a file
-Ship_classes/Ships.cpp.s:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.s
-.PHONY : Ship_classes/Ships.cpp.s
+Ships_classes/Ships.cpp.s:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.s
+.PHONY : Ships_classes/Ships.cpp.s
+
+check_ships.o: check_ships.cpp.o
+
+.PHONY : check_ships.o
+
+# target to build an object file
+check_ships.cpp.o:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/check_ships.cpp.o
+.PHONY : check_ships.cpp.o
+
+check_ships.i: check_ships.cpp.i
+
+.PHONY : check_ships.i
+
+# target to preprocess a source file
+check_ships.cpp.i:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/check_ships.cpp.i
+.PHONY : check_ships.cpp.i
+
+check_ships.s: check_ships.cpp.s
+
+.PHONY : check_ships.s
+
+# target to generate assembly for a file
+check_ships.cpp.s:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/check_ships.cpp.s
+.PHONY : check_ships.cpp.s
 
 main.o: main.cpp.o
 
@@ -231,57 +356,38 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test.o: test.cpp.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/test.cpp.s
-.PHONY : test.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
-	@echo "... Sea_battles"
+	@echo "... install/strip"
 	@echo "... edit_cache"
+	@echo "... Sea_battles"
+	@echo "... install"
+	@echo "... rebuild_cache"
+	@echo "... list_install_components"
+	@echo "... install/local"
+	@echo "... gmock_main"
+	@echo "... gmock"
+	@echo "... gtest_main"
+	@echo "... gtest"
 	@echo "... Metrics/Metrics.o"
 	@echo "... Metrics/Metrics.i"
 	@echo "... Metrics/Metrics.s"
 	@echo "... Object.o"
 	@echo "... Object.i"
 	@echo "... Object.s"
-	@echo "... Ship_classes/Ships.o"
-	@echo "... Ship_classes/Ships.i"
-	@echo "... Ship_classes/Ships.s"
+	@echo "... Ships_classes/Ships.o"
+	@echo "... Ships_classes/Ships.i"
+	@echo "... Ships_classes/Ships.s"
+	@echo "... check_ships.o"
+	@echo "... check_ships.i"
+	@echo "... check_ships.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
 .PHONY : help
 
 

@@ -70,18 +70,18 @@ CMakeFiles/Sea_battles.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sea_battles.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/main.cpp -o CMakeFiles/Sea_battles.dir/main.cpp.s
 
-CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o: CMakeFiles/Sea_battles.dir/flags.make
-CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o: ../Ship_classes/Ships.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Ship_classes/Ships.cpp
+CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o: CMakeFiles/Sea_battles.dir/flags.make
+CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o: ../Ships_classes/Ships.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Ships_classes/Ships.cpp
 
-CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Ship_classes/Ships.cpp > CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.i
+CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Ships_classes/Ships.cpp > CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.i
 
-CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Ship_classes/Ships.cpp -o CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.s
+CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Ships_classes/Ships.cpp -o CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.s
 
 CMakeFiles/Sea_battles.dir/Metrics/Metrics.cpp.o: CMakeFiles/Sea_battles.dir/flags.make
 CMakeFiles/Sea_battles.dir/Metrics/Metrics.cpp.o: ../Metrics/Metrics.cpp
@@ -109,36 +109,39 @@ CMakeFiles/Sea_battles.dir/Object.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sea_battles.dir/Object.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Object.cpp -o CMakeFiles/Sea_battles.dir/Object.cpp.s
 
-CMakeFiles/Sea_battles.dir/test.cpp.o: CMakeFiles/Sea_battles.dir/flags.make
-CMakeFiles/Sea_battles.dir/test.cpp.o: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Sea_battles.dir/test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sea_battles.dir/test.cpp.o -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/test.cpp
+CMakeFiles/Sea_battles.dir/check_ships.cpp.o: CMakeFiles/Sea_battles.dir/flags.make
+CMakeFiles/Sea_battles.dir/check_ships.cpp.o: ../check_ships.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Sea_battles.dir/check_ships.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Sea_battles.dir/check_ships.cpp.o -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/check_ships.cpp
 
-CMakeFiles/Sea_battles.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sea_battles.dir/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/test.cpp > CMakeFiles/Sea_battles.dir/test.cpp.i
+CMakeFiles/Sea_battles.dir/check_ships.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Sea_battles.dir/check_ships.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/check_ships.cpp > CMakeFiles/Sea_battles.dir/check_ships.cpp.i
 
-CMakeFiles/Sea_battles.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sea_battles.dir/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/test.cpp -o CMakeFiles/Sea_battles.dir/test.cpp.s
+CMakeFiles/Sea_battles.dir/check_ships.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Sea_battles.dir/check_ships.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/check_ships.cpp -o CMakeFiles/Sea_battles.dir/check_ships.cpp.s
 
 # Object files for target Sea_battles
 Sea_battles_OBJECTS = \
 "CMakeFiles/Sea_battles.dir/main.cpp.o" \
-"CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o" \
+"CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o" \
 "CMakeFiles/Sea_battles.dir/Metrics/Metrics.cpp.o" \
 "CMakeFiles/Sea_battles.dir/Object.cpp.o" \
-"CMakeFiles/Sea_battles.dir/test.cpp.o"
+"CMakeFiles/Sea_battles.dir/check_ships.cpp.o"
 
 # External object files for target Sea_battles
 Sea_battles_EXTERNAL_OBJECTS =
 
 Sea_battles: CMakeFiles/Sea_battles.dir/main.cpp.o
-Sea_battles: CMakeFiles/Sea_battles.dir/Ship_classes/Ships.cpp.o
+Sea_battles: CMakeFiles/Sea_battles.dir/Ships_classes/Ships.cpp.o
 Sea_battles: CMakeFiles/Sea_battles.dir/Metrics/Metrics.cpp.o
 Sea_battles: CMakeFiles/Sea_battles.dir/Object.cpp.o
-Sea_battles: CMakeFiles/Sea_battles.dir/test.cpp.o
+Sea_battles: CMakeFiles/Sea_battles.dir/check_ships.cpp.o
 Sea_battles: CMakeFiles/Sea_battles.dir/build.make
+Sea_battles: lib/libgtestd.a
+Sea_battles: lib/libgtest_maind.a
+Sea_battles: lib/libgtestd.a
 Sea_battles: CMakeFiles/Sea_battles.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Sea_battles"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Sea_battles.dir/link.txt --verbose=$(VERBOSE)

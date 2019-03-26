@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=gnu++0x -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -isystem /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/googletest-master/googletest/include -isystem /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/googletest-master/googletest 
 

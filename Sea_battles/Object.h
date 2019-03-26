@@ -7,10 +7,11 @@
 
 class Object {
 protected:
-    int _hp;
+    int _cur_hp, _max_hp;
     point _position;
 
 public:
     point get_position ();
     void change_hp (int x);
+    virtual ~Object() = default;
 };
