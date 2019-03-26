@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Sea_battles.dir/Metrics/Metrics.cpp.o"
   "CMakeFiles/Sea_battles.dir/Object.cpp.o"
   "CMakeFiles/Sea_battles.dir/check_ships.cpp.o"
+  "CMakeFiles/Sea_battles.dir/Buildings_classes/Buildings.cpp.o"
   "Sea_battles.pdb"
   "Sea_battles"
 )

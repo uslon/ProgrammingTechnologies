@@ -6,3 +6,21 @@
 
 #IncludeRegexTransform: 
 
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Buildings_classes/Buildings.cpp
+Buildings.h
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Buildings_classes/Buildings.h
+../Metrics/Metrics.h
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Metrics/Metrics.h
+algorithm
+-
+
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Buildings_classes/Buildings.h
+../Object.h
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Object.h
+
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Metrics/Metrics.h
+
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Object.h
+Metrics/Metrics.h
+/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Metrics/Metrics.h
+

@@ -336,6 +336,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Buildings_classes/Buildings.cpp">
+			<Option target="Sea_battles"/>
+		</Unit>
+		<Unit filename="/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Buildings_classes/Buildings.h">
+			<Option target="Sea_battles"/>
+		</Unit>
 		<Unit filename="/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Metrics/Metrics.cpp">
 			<Option target="Sea_battles"/>
 		</Unit>

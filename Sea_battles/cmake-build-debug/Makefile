@@ -221,6 +221,33 @@ gtest/fast:
 	$(MAKE) -f googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build.make googletest-master/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+Buildings_classes/Buildings.o: Buildings_classes/Buildings.cpp.o
+
+.PHONY : Buildings_classes/Buildings.o
+
+# target to build an object file
+Buildings_classes/Buildings.cpp.o:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Buildings_classes/Buildings.cpp.o
+.PHONY : Buildings_classes/Buildings.cpp.o
+
+Buildings_classes/Buildings.i: Buildings_classes/Buildings.cpp.i
+
+.PHONY : Buildings_classes/Buildings.i
+
+# target to preprocess a source file
+Buildings_classes/Buildings.cpp.i:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Buildings_classes/Buildings.cpp.i
+.PHONY : Buildings_classes/Buildings.cpp.i
+
+Buildings_classes/Buildings.s: Buildings_classes/Buildings.cpp.s
+
+.PHONY : Buildings_classes/Buildings.s
+
+# target to generate assembly for a file
+Buildings_classes/Buildings.cpp.s:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Buildings_classes/Buildings.cpp.s
+.PHONY : Buildings_classes/Buildings.cpp.s
+
 Metrics/Metrics.o: Metrics/Metrics.cpp.o
 
 .PHONY : Metrics/Metrics.o
@@ -373,6 +400,9 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... Buildings_classes/Buildings.o"
+	@echo "... Buildings_classes/Buildings.i"
+	@echo "... Buildings_classes/Buildings.s"
 	@echo "... Metrics/Metrics.o"
 	@echo "... Metrics/Metrics.i"
 	@echo "... Metrics/Metrics.s"
