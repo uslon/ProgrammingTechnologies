@@ -45,6 +45,7 @@ CMakeFiles/Sea_battles.dir/check_ships.cpp.o: ../check_ships.cpp
 CMakeFiles/Sea_battles.dir/check_ships.cpp.o: ../googletest-master/googletest/include/gtest/gtest.h
 
 CMakeFiles/Sea_battles.dir/main.cpp.o: ../Metrics/Metrics.h
+CMakeFiles/Sea_battles.dir/main.cpp.o: ../Objects/Buildings_classes/Buildings.h
 CMakeFiles/Sea_battles.dir/main.cpp.o: ../Objects/Object.h
 CMakeFiles/Sea_battles.dir/main.cpp.o: ../Objects/Ships_classes/Ships.h
 CMakeFiles/Sea_battles.dir/main.cpp.o: ../main.cpp
