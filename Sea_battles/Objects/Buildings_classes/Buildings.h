@@ -117,11 +117,8 @@ public:
 class Japanese_building_factory : public Building_factory {
 
 public:
-<<<<<<< HEAD
     Japanese_building_factory() = default;
-=======
     Headquarters * create_headquarters() final { return new Japanese_headquarters; }
->>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
     Sawmill * create_sawmill() final { return new Japanese_sawmill; }
     Mine * create_mine() final { return new Japanese_mine; }
     Gun * create_gun() final { return new Japanese_gun; }
@@ -131,15 +128,11 @@ public:
 class Scandinavian_building_factory : public Building_factory {
 
 public:
-<<<<<<< HEAD
-=======
     Headquarters * create_headquarters() final { return new Scandinavian_headquarters; }
->>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
     Sawmill * create_sawmill() final { return new Scandinavian_sawmill; }
     Mine * create_mine() final { return new Scandinavian_mine; }
     Gun * create_gun() final { return new Scandinavian_gun; }
     ~Scandinavian_building_factory() final = default;
-<<<<<<< HEAD
 };
 
 
@@ -157,6 +150,4 @@ class Scandinavian_headquarters_factory {
 public:
     int create(Scandinavian_headquarters * & place);
     Scandinavian_headquarters * get_ptr();
-=======
->>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
 };
