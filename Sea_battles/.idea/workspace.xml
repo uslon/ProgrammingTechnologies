@@ -15,7 +15,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="28d2ad8c-42cd-46ef-a1e1-810179cd6b53" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="28d2ad8c-42cd-46ef-a1e1-810179cd6b53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +56,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="150">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
+=======
+            <state relative-caret-position="165">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -62,8 +76,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Objects/Ships_classes/Ships.h">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="195">
               <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+=======
+            <state relative-caret-position="572">
+              <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="90" />
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
               <folding>
                 <element signature="e#13#30#0" expanded="true" />
               </folding>
@@ -74,8 +93,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="515">
               <caret line="150" column="2" lean-forward="true" selection-start-line="150" selection-start-column="2" selection-end-line="150" selection-end-column="2" />
+=======
+            <state relative-caret-position="572">
+              <caret line="120" column="40" lean-forward="true" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
             </state>
           </provider>
         </entry>
@@ -83,8 +107,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Objects/Buildings_classes/Buildings.cpp">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="485">
               <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+=======
+            <state relative-caret-position="-568">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
               <folding>
                 <element signature="e#39#61#0" expanded="true" />
               </folding>
@@ -149,8 +178,12 @@
         <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Objects/Ships_classes/Ships.h" />
         <option value="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.cpp" />
         <option value="$PROJECT_DIR$/Tests/test.cpp" />
+=======
+        <option value="$PROJECT_DIR$/main.cpp" />
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
       </list>
     </option>
   </component>
@@ -166,6 +199,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -199,7 +233,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -306,12 +339,16 @@
       <workItem from="1553614220052" duration="16119000" />
       <workItem from="1553632006519" duration="598000" />
       <workItem from="1553642027095" duration="2593000" />
+<<<<<<< HEAD
       <workItem from="1553679757211" duration="5272000" />
       <workItem from="1553705606958" duration="371000" />
       <workItem from="1553708382406" duration="2580000" />
       <workItem from="1553722211769" duration="122000" />
       <workItem from="1553761288452" duration="597000" />
       <workItem from="1553879709336" duration="9597000" />
+=======
+      <workItem from="1553679757211" duration="4673000" />
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
     </task>
     <servers />
   </component>
@@ -348,6 +385,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="54777000" />
   </component>
   <component name="TodoView">
@@ -358,12 +396,19 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+=======
+    <option name="totallyTimeSpent" value="40911000" />
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13754854" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27287853" />
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -418,7 +463,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Objects/Factory.h" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/check_ships.cpp" />
+=======
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
     <entry file="file://$PROJECT_DIR$/Objects/Object.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -436,6 +491,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/googletest-master/googletest/include/gtest/gtest.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="662">
@@ -464,21 +520,50 @@
           <folding>
             <element signature="e#39#61#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/check_ships.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Objects/Ships_classes/Ships.h">
+    <entry file="file://$PROJECT_DIR$/Objects/Buildings_classes/Buildings.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+        <state relative-caret-position="-568">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding>
-            <element signature="e#13#30#0" expanded="true" />
+            <element signature="e#39#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="120" column="40" lean-forward="true" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/Ships_classes/Ships.h">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="195">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
+=======
+        <state relative-caret-position="572">
+          <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="90" />
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
+          <folding>
+            <element signature="e#13#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="515">
           <caret line="150" column="2" lean-forward="true" selection-start-line="150" selection-start-column="2" selection-end-line="150" selection-end-column="2" />
         </state>
@@ -501,6 +586,13 @@
           <folding>
             <element signature="e#40#104#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="165">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+>>>>>>> 073ec6c15724a803a2b6bfe871aef485c51e8e90
         </state>
       </provider>
     </entry>
