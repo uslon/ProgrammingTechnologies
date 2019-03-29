@@ -329,32 +329,32 @@ Objects/Ships_classes/Ships.cpp.s:
 	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Objects/Ships_classes/Ships.cpp.s
 .PHONY : Objects/Ships_classes/Ships.cpp.s
 
-check_ships.o: check_ships.cpp.o
+Tests/test.o: Tests/test.cpp.o
 
-.PHONY : check_ships.o
+.PHONY : Tests/test.o
 
 # target to build an object file
-check_ships.cpp.o:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/check_ships.cpp.o
-.PHONY : check_ships.cpp.o
+Tests/test.cpp.o:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Tests/test.cpp.o
+.PHONY : Tests/test.cpp.o
 
-check_ships.i: check_ships.cpp.i
+Tests/test.i: Tests/test.cpp.i
 
-.PHONY : check_ships.i
+.PHONY : Tests/test.i
 
 # target to preprocess a source file
-check_ships.cpp.i:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/check_ships.cpp.i
-.PHONY : check_ships.cpp.i
+Tests/test.cpp.i:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Tests/test.cpp.i
+.PHONY : Tests/test.cpp.i
 
-check_ships.s: check_ships.cpp.s
+Tests/test.s: Tests/test.cpp.s
 
-.PHONY : check_ships.s
+.PHONY : Tests/test.s
 
 # target to generate assembly for a file
-check_ships.cpp.s:
-	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/check_ships.cpp.s
-.PHONY : check_ships.cpp.s
+Tests/test.cpp.s:
+	$(MAKE) -f CMakeFiles/Sea_battles.dir/build.make CMakeFiles/Sea_battles.dir/Tests/test.cpp.s
+.PHONY : Tests/test.cpp.s
 
 main.o: main.cpp.o
 
@@ -412,9 +412,9 @@ help:
 	@echo "... Objects/Ships_classes/Ships.o"
 	@echo "... Objects/Ships_classes/Ships.i"
 	@echo "... Objects/Ships_classes/Ships.s"
-	@echo "... check_ships.o"
-	@echo "... check_ships.i"
-	@echo "... check_ships.s"
+	@echo "... Tests/test.o"
+	@echo "... Tests/test.i"
+	@echo "... Tests/test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

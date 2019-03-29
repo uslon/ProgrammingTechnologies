@@ -96,3 +96,30 @@ void Scandinavian_gun::is_alive() {
     if (_cur_hp <= 0)
         delete this;
 }
+
+
+Japanese_headquarters * Japanese_headquarters_factory::headquarters = nullptr;
+int Japanese_headquarters_factory::create(Japanese_headquarters * & place) {
+    if (headquarters == nullptr) {
+        place = headquarters = new Japanese_headquarters;
+        return 0;
+    }
+    return 1;
+}
+
+Japanese_headquarters * Japanese_headquarters_factory::get_ptr() {
+    return headquarters;
+}
+
+Scandinavian_headquarters * Scandinavian_headquarters_factory::headquarters = nullptr;
+int Scandinavian_headquarters_factory::create(Scandinavian_headquarters * & place) {
+    if (headquarters == nullptr) {
+        place = headquarters = new Scandinavian_headquarters;
+        return 0;
+    }
+    return 1;
+}
+
+Scandinavian_headquarters * Scandinavian_headquarters_factory::get_ptr() {
+    return headquarters;
+}

@@ -360,7 +360,7 @@
 		<Unit filename="/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Ships_classes/Ships.h">
 			<Option target="Sea_battles"/>
 		</Unit>
-		<Unit filename="/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/check_ships.cpp">
+		<Unit filename="/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Tests/test.cpp">
 			<Option target="Sea_battles"/>
 		</Unit>
 		<Unit filename="/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/googletest-master/googlemock/src/gmock-all.cc">

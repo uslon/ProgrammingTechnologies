@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Buildings_classes/Buildings.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Objects/Buildings_classes/Buildings.cpp.o"
   "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Object.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Objects/Object.cpp.o"
   "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Ships_classes/Ships.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Objects/Ships_classes/Ships.cpp.o"
-  "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/check_ships.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/check_ships.cpp.o"
+  "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Tests/test.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/Tests/test.cpp.o"
   "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/main.cpp" "/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/cmake-build-debug/CMakeFiles/Sea_battles.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

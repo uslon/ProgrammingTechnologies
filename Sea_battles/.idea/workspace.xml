@@ -2,9 +2,9 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
+      <config projectName="Sea_battles" targetName="gmock" />
       <config projectName="Sea_battles" targetName="gtest_main" />
       <config projectName="Sea_battles" targetName="Sea_battles" />
-      <config projectName="Sea_battles" targetName="gmock" />
       <config projectName="Sea_battles" targetName="gtest" />
       <config projectName="Sea_battles" targetName="gmock_main" />
     </generated>
@@ -17,8 +17,24 @@
   <component name="ChangeListManager">
     <list default="true" id="28d2ad8c-42cd-46ef-a1e1-810179cd6b53" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Objects/Ships_classes/Ships.h" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Ships_classes/Ships.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/Objects/Buildings_classes/Buildings.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/Objects/Ships_classes/Ships.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/check_ships.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sea_battles" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sea_battles.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sea_battles.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -34,17 +50,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            <state relative-caret-position="195">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/test.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="129" column="70" lean-forward="true" selection-start-line="129" selection-start-column="70" selection-end-line="129" selection-end-column="70" />
+              <folding>
+                <element signature="e#40#104#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -55,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Objects/Ships_classes/Ships.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="90" />
+            <state relative-caret-position="195">
+              <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
               <folding>
                 <element signature="e#13#30#0" expanded="true" />
               </folding>
@@ -67,8 +95,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="120" column="40" lean-forward="true" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
+            <state relative-caret-position="515">
+              <caret line="150" column="2" lean-forward="true" selection-start-line="150" selection-start-column="2" selection-end-line="150" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -76,8 +104,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Objects/Buildings_classes/Buildings.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-568">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="485">
+              <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
               <folding>
                 <element signature="e#39#61#0" expanded="true" />
               </folding>
@@ -102,15 +130,6 @@
               <folding>
                 <element signature="e#38#57#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check_ships.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -143,14 +162,16 @@
         <option value="$PROJECT_DIR$/Tests/ships_check.cpp" />
         <option value="$PROJECT_DIR$/Tests/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/googletest-master/googletest/include/gtest/gtest.h" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Buildings_classes/Buildings.cpp" />
         <option value="$PROJECT_DIR$/Buildings_classes/Buildings.h" />
         <option value="$PROJECT_DIR$/Objects/Factory.h" />
         <option value="$PROJECT_DIR$/check_ships.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/Objects/Ships_classes/Ships.h" />
         <option value="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h" />
-        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.cpp" />
+        <option value="$PROJECT_DIR$/Tests/test.cpp" />
       </list>
     </option>
   </component>
@@ -166,7 +187,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,10 +211,16 @@
               <item name="Objects" type="462c0819:PsiDirectoryNode" />
               <item name="Ships_classes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Sea_battles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sea_battles" type="462c0819:PsiDirectoryNode" />
+              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,7 +255,7 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sample_test.first" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sea_battles" TARGET_NAME="Sea_battles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sea_battles" RUN_TARGET_NAME="Sea_battles" TEST_CLASS="sample_test" TEST_METHOD="first" TEST_MODE="SUITE_TEST">
+    <configuration name="sample_test.first" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Sea_battles" TARGET_NAME="Sea_battles" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Sea_battles" RUN_TARGET_NAME="Sea_battles" TEST_METHOD="first" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -301,50 +327,64 @@
       <workItem from="1553614220052" duration="16119000" />
       <workItem from="1553632006519" duration="598000" />
       <workItem from="1553642027095" duration="2593000" />
-      <workItem from="1553679757211" duration="4673000" />
+      <workItem from="1553679757211" duration="5272000" />
+      <workItem from="1553705606958" duration="371000" />
+      <workItem from="1553708382406" duration="2580000" />
+      <workItem from="1553722211769" duration="122000" />
+      <workItem from="1553761288452" duration="597000" />
+      <workItem from="1553879709336" duration="9098000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="sample_test_second - 2019.03.26 at 21h 43m 17s.xml">
-      <configuration name="sample_test.second" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="sample_test_second - 2019.03.26 at 21h 43m 37s.xml">
-      <configuration name="sample_test.second" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="sample_test_second - 2019.03.26 at 21h 44m 38s.xml">
-      <configuration name="sample_test.second" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="sample_test_second - 2019.03.26 at 22h 42m 47s.xml">
-      <configuration name="sample_test.second" configurationId="CMakeGoogleTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="sample_test_first - 2019.03.26 at 22h 42m 53s.xml">
+    <history-entry file="sample_test_first - 2019.03.29 at 20h 44m 05s.xml">
       <configuration name="sample_test.first" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="sample_test_first - 2019.03.26 at 23h 01m 30s.xml">
+    <history-entry file="sample_test_first - 2019.03.29 at 20h 45m 10s.xml">
       <configuration name="sample_test.first" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="sample_test_first - 2019.03.26 at 23h 03m 48s.xml">
+    <history-entry file="sample_test_first - 2019.03.29 at 20h 53m 10s.xml">
       <configuration name="sample_test.first" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="sample_test_first - 2019.03.26 at 23h 14m 21s.xml">
+    <history-entry file="sample_test_first - 2019.03.29 at 21h 11m 13s.xml">
       <configuration name="sample_test.first" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="sample_test_first - 2019.03.27 at 02h 37m 45s.xml">
+    <history-entry file="sample_test_first - 2019.03.29 at 21h 14m 27s.xml">
       <configuration name="sample_test.first" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
-    <history-entry file="sample_test_first - 2019.03.27 at 02h 38m 00s.xml">
+    <history-entry file="sample_test_first - 2019.03.29 at 22h 25m 57s.xml">
+      <configuration name="sample_test.first" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="sample_test_first - 2019.03.29 at 22h 50m 34s.xml">
+      <configuration name="sample_test.first" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="sample_test_first - 2019.03.29 at 22h 51m 45s.xml">
+      <configuration name="sample_test.first" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="sample_test_first - 2019.03.29 at 22h 53m 08s.xml">
+      <configuration name="sample_test.first" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="sample_test_first - 2019.03.29 at 22h 53m 21s.xml">
       <configuration name="sample_test.first" configurationId="CMakeGoogleTestRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40911000" />
+    <option name="totallyTimeSpent" value="54278000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27287853" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13754854" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -353,12 +393,12 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897604" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32897604" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.2908497" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32897604" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.32897604" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -391,16 +431,6 @@
     <entry file="file://$PROJECT_DIR$/Tests/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Tests/ships_check.cpp" />
     <entry file="file://$PROJECT_DIR$/Tests/CMakeLists.txt" />
-    <entry file="file://$PROJECT_DIR$/googletest-master/googletest/include/gtest/gtest.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="495" column="15" selection-start-line="495" selection-start-column="15" selection-end-line="495" selection-end-column="15" />
-          <folding>
-            <element signature="e#2442#2460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Objects/Ships_classes/Ships.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
@@ -409,13 +439,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Objects/Factory.h" />
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/check_ships.cpp" />
     <entry file="file://$PROJECT_DIR$/Objects/Object.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -433,46 +457,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check_ships.cpp">
+    <entry file="file://$PROJECT_DIR$/googletest-master/googletest/include/gtest/gtest.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="662">
+          <caret line="2467" column="11" selection-start-line="2467" selection-start-column="11" selection-end-line="2467" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/googletest-master/googlemock/make/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Objects/Buildings_classes/Buildings.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-568">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        <state relative-caret-position="485">
+          <caret line="123" column="24" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
           <folding>
             <element signature="e#39#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="120" column="40" lean-forward="true" selection-start-line="120" selection-start-column="40" selection-end-line="120" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Objects/Ships_classes/Ships.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="90" />
+        <state relative-caret-position="195">
+          <caret line="82" column="27" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
           <folding>
             <element signature="e#13#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="150" column="2" lean-forward="true" selection-start-line="150" selection-start-column="2" selection-end-line="150" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/test.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="129" column="70" lean-forward="true" selection-start-line="129" selection-start-column="70" selection-end-line="129" selection-end-column="70" />
+          <folding>
+            <element signature="e#40#104#0" expanded="true" />
           </folding>
         </state>
       </provider>

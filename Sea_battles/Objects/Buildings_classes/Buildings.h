@@ -108,7 +108,6 @@ public:
 class Building_factory {
 
 public:
-    virtual Headquarters * create_headquarters() = 0;
     virtual Sawmill * create_sawmill() = 0;
     virtual Mine * create_mine() = 0;
     virtual Gun * create_gun() = 0;
@@ -118,7 +117,7 @@ public:
 class Japanese_building_factory : public Building_factory {
 
 public:
-    Headquarters * create_headquarters() final { return new Japanese_headquarters; }
+    Japanese_building_factory() = default;
     Sawmill * create_sawmill() final { return new Japanese_sawmill; }
     Mine * create_mine() final { return new Japanese_mine; }
     Gun * create_gun() final { return new Japanese_gun; }
@@ -128,9 +127,25 @@ public:
 class Scandinavian_building_factory : public Building_factory {
 
 public:
-    Headquarters * create_headquarters() final { return new Scandinavian_headquarters; }
     Sawmill * create_sawmill() final { return new Scandinavian_sawmill; }
     Mine * create_mine() final { return new Scandinavian_mine; }
     Gun * create_gun() final { return new Scandinavian_gun; }
     ~Scandinavian_building_factory() final = default;
+};
+
+
+class Japanese_headquarters_factory {
+    static Japanese_headquarters * headquarters;
+
+public:
+    int create(Japanese_headquarters * & place);
+    Japanese_headquarters * get_ptr();
+};
+
+class Scandinavian_headquarters_factory {
+    static Scandinavian_headquarters * headquarters;
+
+public:
+    int create(Scandinavian_headquarters * & place);
+    Scandinavian_headquarters * get_ptr();
 };

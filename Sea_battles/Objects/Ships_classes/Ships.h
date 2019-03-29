@@ -47,6 +47,8 @@ public:
 
 
 class Light_ship : public Ship {
+protected:
+    int _range, _dmg;
 
 public:
     void attack (Object * object) override = 0;
@@ -55,7 +57,6 @@ public:
 };
 
 class Japanese_light_ship : public Light_ship {
-    int _range, _dmg;
 
 public:
     void attack (Object * object) final;
@@ -64,7 +65,6 @@ public:
 };
 
 class Scandinavian_light_ship : public Light_ship {
-    int _range, _dmg;
 
 public:
     void attack (Object * object) final;
@@ -74,24 +74,30 @@ public:
 
 
 class Heavy_ship : public Ship {
+protected:
+    int _range, _dmg;
 
 public:
     void attack (Object * object) override = 0;
     void is_alive() override = 0;
+    Heavy_ship() = default;
+    Heavy_ship(int _range, int _dmg) : _range(_range), _dmg(_dmg){};
     ~Heavy_ship() override = default;
 };
 
 class Japanese_heavy_ship : public Heavy_ship {
-    int _range, _dmg;
 
 public:
     void attack (Object * object) final;
     void is_alive() final;
     ~Japanese_heavy_ship() final = default;
+
+    const bool operator == (const Japanese_heavy_ship & a) const {
+        return _dmg == a._dmg && _range == a._range;
+    }
 };
 
 class Scandinavian_heavy_ship : public Heavy_ship {
-    int _range, _dmg;
 
 public:
     void attack (Object * object) final;
@@ -115,7 +121,7 @@ public:
     Colonists_ship * create_colonists_ship() final { return new Japanese_colonists_ship; }
     Light_ship * create_light_ship() final { return new Japanese_light_ship; }
     Heavy_ship * create_heavy_ship() final { return new Japanese_heavy_ship; }
-    ~Japanese_ship_factory() = default;
+    ~Japanese_ship_factory() final = default;
 };
 
 class Scandinavian_ship_factory : public Ship_factory {
@@ -124,5 +130,5 @@ public:
     Colonists_ship * create_colonists_ship() final { return new Scandinavian_colonists_ship; }
     Light_ship * create_light_ship() final { return new Scandinavian_light_ship; }
     Heavy_ship * create_heavy_ship() final { return new Scandinavian_heavy_ship; }
-    ~Scandinavian_ship_factory() = default;
+    ~Scandinavian_ship_factory() final = default;
 };
