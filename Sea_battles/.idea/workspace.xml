@@ -15,28 +15,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28d2ad8c-42cd-46ef-a1e1-810179cd6b53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Buildings_classes/Buildings.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Objects/Ships_classes/Ships.h" beforeDir="false" afterPath="$PROJECT_DIR$/Objects/Ships_classes/Ships.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/Objects/Buildings_classes/Buildings.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/Objects/Ships_classes/Ships.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/check_ships.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Sea_battles.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sea_battles" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Sea_battles.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Sea_battles.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="28d2ad8c-42cd-46ef-a1e1-810179cd6b53" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -332,7 +311,7 @@
       <workItem from="1553708382406" duration="2580000" />
       <workItem from="1553722211769" duration="122000" />
       <workItem from="1553761288452" duration="597000" />
-      <workItem from="1553879709336" duration="9098000" />
+      <workItem from="1553879709336" duration="9597000" />
     </task>
     <servers />
   </component>
@@ -369,7 +348,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54278000" />
+    <option name="totallyTimeSpent" value="54777000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
