@@ -1,0 +1,14 @@
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/inicpp/dll.h
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/inicpp/schema.h
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/inicpp/exception.h
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/inicpp/types.h
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/inicpp/option_schema.h
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/inicpp/section_schema.h
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/inicpp/option.h
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/inicpp/parser.h
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/inicpp/config.h
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/inicpp/string_utils.h
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/inicpp/inicpp.h
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/inicpp/section.h
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/lib/libinicpp.so
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/lib/libinicpp_static.a

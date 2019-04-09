@@ -1,0 +1,275 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e67f8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e67f8.dir/build.make CMakeFiles/cmTC_e67f8.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e67f8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e67f8.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e67f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e67f8.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e67f8.dir/CheckSymbolExists.c.o  -o cmTC_e67f8 
+CMakeFiles/cmTC_e67f8.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e67f8.dir/build.make:97: recipe for target 'cmTC_e67f8' failed
+make[1]: *** [cmTC_e67f8] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e67f8/fast' failed
+make: *** [cmTC_e67f8/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12ca0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_12ca0.dir/build.make CMakeFiles/cmTC_12ca0.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12ca0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_12ca0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_12ca0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12ca0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_12ca0.dir/CheckFunctionExists.c.o  -o cmTC_12ca0 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_12ca0.dir/build.make:97: recipe for target 'cmTC_12ca0' failed
+make[1]: *** [cmTC_12ca0] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_12ca0/fast' failed
+make: *** [cmTC_12ca0/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_968b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_968b7.dir/build.make CMakeFiles/cmTC_968b7.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_968b7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_968b7.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_968b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_968b7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_968b7.dir/CheckSymbolExists.c.o  -o cmTC_968b7 
+CMakeFiles/cmTC_968b7.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_968b7.dir/build.make:97: recipe for target 'cmTC_968b7' failed
+make[1]: *** [cmTC_968b7] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_968b7/fast' failed
+make: *** [cmTC_968b7/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fc4ff/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fc4ff.dir/build.make CMakeFiles/cmTC_fc4ff.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc4ff.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_fc4ff.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fc4ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc4ff.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_fc4ff.dir/CheckFunctionExists.c.o  -o cmTC_fc4ff -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_fc4ff.dir/build.make:97: recipe for target 'cmTC_fc4ff' failed
+make[1]: *** [cmTC_fc4ff] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_fc4ff/fast' failed
+make: *** [cmTC_fc4ff/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eefbf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eefbf.dir/build.make CMakeFiles/cmTC_eefbf.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eefbf.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eefbf.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eefbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eefbf.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eefbf.dir/CheckSymbolExists.c.o  -o cmTC_eefbf 
+CMakeFiles/cmTC_eefbf.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_eefbf.dir/build.make:97: recipe for target 'cmTC_eefbf' failed
+make[1]: *** [cmTC_eefbf] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_eefbf/fast' failed
+make: *** [cmTC_eefbf/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_249bd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_249bd.dir/build.make CMakeFiles/cmTC_249bd.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_249bd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_249bd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_249bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_249bd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_249bd.dir/CheckFunctionExists.c.o  -o cmTC_249bd -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_249bd.dir/build.make:97: recipe for target 'cmTC_249bd' failed
+make[1]: *** [cmTC_249bd] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_249bd/fast' failed
+make: *** [cmTC_249bd/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_78b43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_78b43.dir/build.make CMakeFiles/cmTC_78b43.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_78b43.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_78b43.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_78b43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78b43.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_78b43.dir/CheckSymbolExists.c.o  -o cmTC_78b43 
+CMakeFiles/cmTC_78b43.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_78b43.dir/build.make:97: recipe for target 'cmTC_78b43' failed
+make[1]: *** [cmTC_78b43] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_78b43/fast' failed
+make: *** [cmTC_78b43/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ebe4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ebe4c.dir/build.make CMakeFiles/cmTC_ebe4c.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebe4c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ebe4c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ebe4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebe4c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ebe4c.dir/CheckFunctionExists.c.o  -o cmTC_ebe4c -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ebe4c.dir/build.make:97: recipe for target 'cmTC_ebe4c' failed
+make[1]: *** [cmTC_ebe4c] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ebe4c/fast' failed
+make: *** [cmTC_ebe4c/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4c48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4c48.dir/build.make CMakeFiles/cmTC_e4c48.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4c48.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e4c48.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e4c48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4c48.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e4c48.dir/CheckSymbolExists.c.o  -o cmTC_e4c48 
+CMakeFiles/cmTC_e4c48.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e4c48.dir/build.make:97: recipe for target 'cmTC_e4c48' failed
+make[1]: *** [cmTC_e4c48] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e4c48/fast' failed
+make: *** [cmTC_e4c48/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db5ec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db5ec.dir/build.make CMakeFiles/cmTC_db5ec.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db5ec.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_db5ec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_db5ec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db5ec.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_db5ec.dir/CheckFunctionExists.c.o  -o cmTC_db5ec -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_db5ec.dir/build.make:97: recipe for target 'cmTC_db5ec' failed
+make[1]: *** [cmTC_db5ec] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_db5ec/fast' failed
+make: *** [cmTC_db5ec/fast] Error 2
+
+

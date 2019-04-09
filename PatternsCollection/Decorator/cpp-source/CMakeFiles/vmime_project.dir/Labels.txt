@@ -1,0 +1,13 @@
+# Target labels
+ vmime_project
+# Source files and their labels
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/vmime_project
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/vmime_project.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/vmime_project-complete.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-stamp/vmime_project-install.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-stamp/vmime_project-mkdir.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-stamp/vmime_project-download.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-stamp/vmime_project-update.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-stamp/vmime_project-patch.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-stamp/vmime_project-configure.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-stamp/vmime_project-build.rule

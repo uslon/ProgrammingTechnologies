@@ -1,0 +1,13 @@
+prefix=/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external
+exec_prefix=/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/bin
+libdir=/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/lib
+includedir=/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external/include/vmime
+
+Name: vmime
+Description: VMime C++ Mail Library (http://www.vmime.org)
+Version: 0.9.2
+Requires.private:  gnutls
+Libs: -L${libdir} -lvmime
+Libs.private:  /usr/lib/x86_64-linux-gnu/libicuuc.so
+Cflags: -I${includedir}/  -I/usr/include
+

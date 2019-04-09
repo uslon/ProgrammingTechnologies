@@ -1,0 +1,1349 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d9ba5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d9ba5.dir/build.make CMakeFiles/cmTC_d9ba5.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9ba5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d9ba5.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d9ba5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9ba5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d9ba5.dir/CheckSymbolExists.c.o  -o cmTC_d9ba5 
+CMakeFiles/cmTC_d9ba5.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d9ba5.dir/build.make:97: recipe for target 'cmTC_d9ba5' failed
+make[1]: *** [cmTC_d9ba5] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d9ba5/fast' failed
+make: *** [cmTC_d9ba5/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eb6d1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eb6d1.dir/build.make CMakeFiles/cmTC_eb6d1.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb6d1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_eb6d1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eb6d1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb6d1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_eb6d1.dir/CheckFunctionExists.c.o  -o cmTC_eb6d1 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_eb6d1.dir/build.make:97: recipe for target 'cmTC_eb6d1' failed
+make[1]: *** [cmTC_eb6d1] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_eb6d1/fast' failed
+make: *** [cmTC_eb6d1/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian-x64/arm-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-bcm2708hardfp-linux-gnueabi/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ../tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+No such file or directory
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --c++ 
+
+The output was:
+No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: ~/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++ 
+Build flags: 
+Id flags: --ec++ 
+
+The output was:
+No such file or directory
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_55399/fast"
+/usr/bin/make -f CMakeFiles/cmTC_55399.dir/build.make CMakeFiles/cmTC_55399.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55399.dir/CheckSymbolExists.c.o
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_55399.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_55399
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55399.dir/link.txt --verbose=1
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_55399.dir/CheckSymbolExists.c.o  -o cmTC_55399 
+CMakeFiles/cmTC_55399.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x38): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_55399.dir/build.make:97: recipe for target 'cmTC_55399' failed
+make[1]: *** [cmTC_55399] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_55399/fast' failed
+make: *** [cmTC_55399/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8ee5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8ee5b.dir/build.make CMakeFiles/cmTC_8ee5b.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ee5b.dir/CheckFunctionExists.c.o
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8ee5b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8ee5b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ee5b.dir/link.txt --verbose=1
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8ee5b.dir/CheckFunctionExists.c.o  -o cmTC_8ee5b -lpthreads 
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_8ee5b.dir/build.make:97: recipe for target 'cmTC_8ee5b' failed
+make[1]: *** [cmTC_8ee5b] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_8ee5b/fast' failed
+make: *** [cmTC_8ee5b/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a69d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a69d.dir/build.make CMakeFiles/cmTC_7a69d.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a69d.dir/CheckSymbolExists.c.o
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_7a69d.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7a69d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a69d.dir/link.txt --verbose=1
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_7a69d.dir/CheckSymbolExists.c.o  -o cmTC_7a69d 
+CMakeFiles/cmTC_7a69d.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x38): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7a69d.dir/build.make:97: recipe for target 'cmTC_7a69d' failed
+make[1]: *** [cmTC_7a69d] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7a69d/fast' failed
+make: *** [cmTC_7a69d/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf07e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf07e.dir/build.make CMakeFiles/cmTC_cf07e.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf07e.dir/CheckFunctionExists.c.o
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cf07e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf07e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf07e.dir/link.txt --verbose=1
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cf07e.dir/CheckFunctionExists.c.o  -o cmTC_cf07e -lpthreads 
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/tools-master/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cf07e.dir/build.make:97: recipe for target 'cmTC_cf07e' failed
+make[1]: *** [cmTC_cf07e] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cf07e/fast' failed
+make: *** [cmTC_cf07e/fast] Error 2
+
+

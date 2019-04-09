@@ -1,0 +1,13 @@
+# Target labels
+ inicpp_project
+# Source files and their labels
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/inicpp_project
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/inicpp_project.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/CMakeFiles/inicpp_project-complete.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/inicpp_project-prefix/src/inicpp_project-stamp/inicpp_project-install.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/inicpp_project-prefix/src/inicpp_project-stamp/inicpp_project-mkdir.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/inicpp_project-prefix/src/inicpp_project-stamp/inicpp_project-download.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/inicpp_project-prefix/src/inicpp_project-stamp/inicpp_project-update.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/inicpp_project-prefix/src/inicpp_project-stamp/inicpp_project-patch.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/inicpp_project-prefix/src/inicpp_project-stamp/inicpp_project-configure.rule
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/inicpp_project-prefix/src/inicpp_project-stamp/inicpp_project-build.rule

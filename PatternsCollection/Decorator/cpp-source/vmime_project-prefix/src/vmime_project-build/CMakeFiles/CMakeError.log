@@ -1,0 +1,403 @@
+Determining size of __int64 failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c4496/fast"
+make[3]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c4496.dir/build.make CMakeFiles/cmTC_c4496.dir/build
+make[4]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4496.dir/SIZEOF___INT64.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c4496.dir/SIZEOF___INT64.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:23:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+ #define SIZE (sizeof(__int64))
+                      ^
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:25:12: note: in expansion of macro ‘SIZE’
+   ('0' + ((SIZE / 10000)%10)),
+            ^~~~
+CMakeFiles/cmTC_c4496.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_c4496.dir/SIZEOF___INT64.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_c4496.dir/SIZEOF___INT64.c.o] Error 1
+make[4]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c4496/fast' failed
+make[3]: *** [cmTC_c4496/fast] Error 2
+make[3]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int64_t failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1bbcb/fast"
+make[3]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_1bbcb.dir/build.make CMakeFiles/cmTC_1bbcb.dir/build
+make[4]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bbcb.dir/SIZEOF_INT64_T.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1bbcb.dir/SIZEOF_INT64_T.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c:4:10: fatal error: cstdint: No such file or directory
+ #include "cstdint"
+          ^~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_1bbcb.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_1bbcb.dir/SIZEOF_INT64_T.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_1bbcb.dir/SIZEOF_INT64_T.c.o] Error 1
+make[4]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_1bbcb/fast' failed
+make[3]: *** [cmTC_1bbcb/fast] Error 2
+make[3]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "cstdint"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(int64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C++ SOURCE FILE Test ICONV_SECOND_ARGUMENT_IS_CONST failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2dce/fast"
+make[3]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d2dce.dir/build.make CMakeFiles/cmTC_d2dce.dir/build
+make[4]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d2dce.dir/src.cxx.o
+/usr/bin/c++    -fvisibility=hidden -fvisibility-inlines-hidden -DICONV_SECOND_ARGUMENT_IS_CONST   -o CMakeFiles/cmTC_d2dce.dir/src.cxx.o -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/src.cxx
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/src.cxx:9:17: error: invalid conversion from ‘const char**’ to ‘char**’ [-fpermissive]
+     iconv(conv, &in, &ilen, &out, &olen);
+                 ^~~
+In file included from /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/src.cxx:2:0:
+/usr/include/iconv.h:42:15: note:   initializing argument 2 of ‘size_t iconv(iconv_t, char**, size_t*, char**, size_t*)’
+ extern size_t iconv (iconv_t __cd, char **__restrict __inbuf,
+               ^~~~~
+CMakeFiles/cmTC_d2dce.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d2dce.dir/src.cxx.o' failed
+make[4]: *** [CMakeFiles/cmTC_d2dce.dir/src.cxx.o] Error 1
+make[4]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d2dce/fast' failed
+make[3]: *** [cmTC_d2dce/fast] Error 2
+make[3]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+  #include <iconv.h>
+  int main(){
+    iconv_t conv = 0;
+    const char* in = 0;
+    size_t ilen = 0;
+    char* out = 0;
+    size_t olen = 0;
+    iconv(conv, &in, &ilen, &out, &olen);
+    return 0;
+  }
+
+Determining if the function gmtime_s exists failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e457c/fast"
+make[3]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e457c.dir/build.make CMakeFiles/cmTC_e457c.dir/build
+make[4]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e457c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gmtime_s   -o CMakeFiles/cmTC_e457c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e457c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e457c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gmtime_s    -rdynamic CMakeFiles/cmTC_e457c.dir/CheckFunctionExists.c.o  -o cmTC_e457c 
+CMakeFiles/cmTC_e457c.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `gmtime_s'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e457c.dir/build.make:97: recipe for target 'cmTC_e457c' failed
+make[4]: *** [cmTC_e457c] Error 1
+make[4]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e457c/fast' failed
+make[3]: *** [cmTC_e457c/fast] Error 2
+make[3]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function localtime_s exists failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_984aa/fast"
+make[3]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_984aa.dir/build.make CMakeFiles/cmTC_984aa.dir/build
+make[4]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_984aa.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=localtime_s   -o CMakeFiles/cmTC_984aa.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_984aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_984aa.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=localtime_s    -rdynamic CMakeFiles/cmTC_984aa.dir/CheckFunctionExists.c.o  -o cmTC_984aa 
+CMakeFiles/cmTC_984aa.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `localtime_s'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_984aa.dir/build.make:97: recipe for target 'cmTC_984aa' failed
+make[4]: *** [cmTC_984aa] Error 1
+make[4]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_984aa/fast' failed
+make[3]: *** [cmTC_984aa/fast] Error 2
+make[3]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcpy_s exists failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3eaed/fast"
+make[3]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3eaed.dir/build.make CMakeFiles/cmTC_3eaed.dir/build
+make[4]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3eaed.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strcpy_s   -o CMakeFiles/cmTC_3eaed.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3eaed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eaed.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=strcpy_s    -rdynamic CMakeFiles/cmTC_3eaed.dir/CheckFunctionExists.c.o  -o cmTC_3eaed 
+CMakeFiles/cmTC_3eaed.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `strcpy_s'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3eaed.dir/build.make:97: recipe for target 'cmTC_3eaed' failed
+make[4]: *** [cmTC_3eaed] Error 1
+make[4]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3eaed/fast' failed
+make[3]: *** [cmTC_3eaed/fast] Error 2
+make[3]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettid exists failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f4b3/fast"
+make[3]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5f4b3.dir/build.make CMakeFiles/cmTC_5f4b3.dir/build
+make[4]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f4b3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=gettid   -o CMakeFiles/cmTC_5f4b3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5f4b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f4b3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=gettid    -rdynamic CMakeFiles/cmTC_5f4b3.dir/CheckFunctionExists.c.o  -o cmTC_5f4b3 
+CMakeFiles/cmTC_5f4b3.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `gettid'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5f4b3.dir/build.make:97: recipe for target 'cmTC_5f4b3' failed
+make[4]: *** [cmTC_5f4b3] Error 1
+make[4]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5f4b3/fast' failed
+make[3]: *** [cmTC_5f4b3/fast] Error 2
+make[3]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+
+
+Determining if the getthrid exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5d669/fast"
+make[3]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5d669.dir/build.make CMakeFiles/cmTC_5d669.dir/build
+make[4]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d669.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5d669.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘getthrid’ undeclared (first use in this function); did you mean ‘getegid’?
+   return ((int*)(&getthrid))[argc];
+                   ^~~~~~~~
+                   getegid
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_5d669.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_5d669.dir/CheckSymbolExists.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_5d669.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5d669/fast' failed
+make[3]: *** [cmTC_5d669/fast] Error 2
+make[3]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getthrid
+  return ((int*)(&getthrid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the SO_NOSIGPIPE exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbd5f/fast"
+make[3]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bbd5f.dir/build.make CMakeFiles/cmTC_bbd5f.dir/build
+make[4]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bbd5f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bbd5f.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘SO_NOSIGPIPE’ undeclared (first use in this function); did you mean ‘SO_OOBINLINE’?
+   return ((int*)(&SO_NOSIGPIPE))[argc];
+                   ^~~~~~~~~~~~
+                   SO_OOBINLINE
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_bbd5f.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_bbd5f.dir/CheckSymbolExists.c.o' failed
+make[4]: *** [CMakeFiles/cmTC_bbd5f.dir/CheckSymbolExists.c.o] Error 1
+make[4]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bbd5f/fast' failed
+make[3]: *** [cmTC_bbd5f/fast] Error 2
+make[3]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/socket.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SO_NOSIGPIPE
+  return ((int*)(&SO_NOSIGPIPE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_13126/fast"
+make[3]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_13126.dir/build.make CMakeFiles/cmTC_13126.dir/build
+make[4]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13126.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_13126.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_13126
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13126.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_13126.dir/CheckSymbolExists.c.o  -o cmTC_13126 
+CMakeFiles/cmTC_13126.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_13126.dir/build.make:97: recipe for target 'cmTC_13126' failed
+make[4]: *** [cmTC_13126] Error 1
+make[4]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_13126/fast' failed
+make[3]: *** [cmTC_13126/fast] Error 2
+make[3]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39356/fast"
+make[3]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_39356.dir/build.make CMakeFiles/cmTC_39356.dir/build
+make[4]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39356.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_39356.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_39356
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39356.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_39356.dir/CheckFunctionExists.c.o  -o cmTC_39356 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_39356.dir/build.make:97: recipe for target 'cmTC_39356' failed
+make[4]: *** [cmTC_39356] Error 1
+make[4]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_39356/fast' failed
+make[3]: *** [cmTC_39356/fast] Error 2
+make[3]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,11 @@
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/install/strip.dir
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/install/local.dir
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/install.dir
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/list_install_components.dir
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/rebuild_cache.dir
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/vmime-static.dir
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/dist.dir
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/edit_cache.dir
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/vmime.dir
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/package.dir
+/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/vmime_project-prefix/src/vmime_project-build/CMakeFiles/package_source.dir

@@ -1,0 +1,1 @@
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX=/home/amir/Documents/PT/ProgrammingTechnologies/task3/PatternsCollection/Decorator/cpp-source/external;-DVMIME_HAVE_SASL_SUPPORT=OFF;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
