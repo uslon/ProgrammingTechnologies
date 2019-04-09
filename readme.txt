@@ -1,4 +1,5 @@
 Скрипты запускать под sudo
+Скрипт для второй части - run.sh, находится в .../Decorator/
 1 Часть:
 
 -Could NOT find CURL (missing: CURL_LIBRARY CURL_INCLUDE_DIR)
