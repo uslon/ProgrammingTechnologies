@@ -7,7 +7,7 @@
 
 class Object {
 protected:
-    int _cur_hp, _max_hp;
+    int _cur_hp, _max_hp, _cool_down;
     point _position;
 
 public:
