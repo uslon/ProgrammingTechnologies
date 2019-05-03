@@ -117,8 +117,6 @@ public:
 class Japanese_building_factory : public Building_factory {
 
 public:
-    Japanese_building_factory() = default;
-    Headquarters * create_headquarters() final { return new Japanese_headquarters; }
     Sawmill * create_sawmill() final { return new Japanese_sawmill; }
     Mine * create_mine() final { return new Japanese_mine; }
     Gun * create_gun() final { return new Japanese_gun; }
@@ -128,7 +126,6 @@ public:
 class Scandinavian_building_factory : public Building_factory {
 
 public:
-    Headquarters * create_headquarters() final { return new Scandinavian_headquarters; }
     Sawmill * create_sawmill() final { return new Scandinavian_sawmill; }
     Mine * create_mine() final { return new Scandinavian_mine; }
     Gun * create_gun() final { return new Scandinavian_gun; }
