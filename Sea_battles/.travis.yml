@@ -1,6 +1,7 @@
 language: cpp
-compiler:
-        - clang
-        - gcc
-notifications:
-        email: true
+sudo: false
+dist: trusty
+
+script:
+        - cmake .
+        - cmake --build .
