@@ -5,7 +5,7 @@ script:
         - cd Sea_battles/
         - cmake CMakeLists.txt
         - make
-
+        - ./Sea_battles
 
 notifications:
         email:
