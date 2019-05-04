@@ -5,8 +5,8 @@ script:
         - cmake CMakeLists.txt
         - make
 
-notifications:
-        uslon@yahoo.com
 
-beleberdas sdfjle sfdej
+notifications:
+        - uslon@yahoo.com
+ 
 
