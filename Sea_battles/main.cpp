@@ -8,7 +8,6 @@ using std::cin;
 using std::cout;
 
 int main() {
-    assert(false);
     std::cout << "Hello, World!" << std::endl;
     Japanese_building_factory dock;
     auto Tsar_pushka = dock.create_gun();
