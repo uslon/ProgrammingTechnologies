@@ -1,6 +1,12 @@
 language: cpp
-compiler:
-        - clang
-        - gcc
+compiler: gcc
+
+script: 
+        - cmake CMakeLists.txt
+        - make
+
+
 notifications:
-        email: true
+        - uslon@yahoo.com
+ 
+
