@@ -2,11 +2,13 @@ language: cpp
 compiler: gcc
 
 script: 
+        - cd Sea_battles/
         - cmake CMakeLists.txt
         - make
 
 
 notifications:
-        - uslon@yahoo.com
+        email:
+                - uslon@yahoo.com
  
 
