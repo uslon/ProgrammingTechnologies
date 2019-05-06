@@ -24,15 +24,15 @@
 Для создания кораблей и обычных зданий было решено применить паттерн "Абстрактная фабрика". Для того чтобы быть уверенным, что штаб для игрока на карте один, был реализован паттерн "Синглтон".
 ------------------
 Для linux необходимо установить:
-    freetype
-    x11
-    xrandr
-    udev
-    opengl
-    flac
-    ogg
-    vorbis
-    vorbisenc
-    vorbisfile
-    openal
-    pthread
+freetype
+x11
+xrandr
+udev
+opengl
+flac
+ogg
+vorbis
+vorbisenc
+vorbisfile
+openal
+pthread
