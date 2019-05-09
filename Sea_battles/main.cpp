@@ -4,6 +4,7 @@
 #include "Objects/Buildings_classes/Buildings.h"
 
 #include <SFML/Graphics.hpp>
+#include <SFML/Window.hpp>
 #include "googletest-master/googletest/include/gtest/gtest.h"
 
 using std::cin;
@@ -15,17 +16,18 @@ int main() {
  	sf::CircleShape shape(100.f);
 	shape.setFillColor(sf::Color::Green);
 
-	while (window.isOpen()) {
-       	sf::Event event;
-       	while (window.pollEvent(event)) {
-       		if (event.type == sf::Event::Closed)
-        		window.close();
-       	}
+	for (int j = 0; j < 10000; j++) {
+       		sf::Event event;
+       		while (window.pollEvent(event)) {
+       			if (event.type == sf::Event::Closed)
+        			window.close();
+       		}
 
 		window.clear();
     	  	window.draw(shape);
        		window.display();
    	}
+	window.close();
 	//cout << "Main code is commented\n";
 
     return 0;

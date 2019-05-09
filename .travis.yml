@@ -7,7 +7,7 @@ before_install:
 script: 
         - cd Sea_battles/
         - ./autorun.sh
-          #- timeout 1 ./Sea_battles
+        - ./Sea_battles
 
 notifications:
         email:
