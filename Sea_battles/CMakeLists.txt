@@ -10,5 +10,7 @@ add_executable(Sea_battles main.cpp Objects/Ships_classes/Ships.cpp
         Objects/Buildings_classes/Buildings.h
         Objects/Buildings_classes/Buildings.cpp Tests/test.cpp)
 
+
 add_subdirectory(googletest-master)
 target_link_libraries(Sea_battles gtest gtest_main)
+target_link_libraries(Sea_battles -lsfml-window -lsfml-graphics)
