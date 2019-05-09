@@ -1,6 +1,9 @@
 language: cpp
 compiler: gcc
 
+before_install:
+        - sudo apt-get install libsfml-dev
+
 script: 
         - cd Sea_battles/
         - ./autorun.sh
