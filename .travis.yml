@@ -7,7 +7,6 @@ before_install:
 script: 
         - cd Sea_battles/
         - ./autorun.sh DEBUG
-        - ./autorun.sh
 
 notifications:
         email:
