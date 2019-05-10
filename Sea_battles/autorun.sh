@@ -13,3 +13,10 @@ if test -f "$FILE"; then
 fi
 cmake CMakeLists.txt
 make
+
+if [ "$1" == 'DEBUG' ]; then
+	echo 'DEBUG mode chosen'
+	./Sea_battles DBG
+else
+	./Sea_battles
+fi

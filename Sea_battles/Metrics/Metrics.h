@@ -5,6 +5,8 @@
 
 struct point {
     int _x, _y;
+    point();
+    point(int x, int y);
 };
 
 int square_dist (point a, point b);
