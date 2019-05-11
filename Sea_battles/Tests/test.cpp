@@ -151,7 +151,7 @@ TEST(Singleton, japanese_headquarters_factory) {
 
 TEST(Islands, Islands_type) {
 	Island_type First_island_type;
-	cout << "Just for travis\n";
+	cout << "Just for travis\n" << std::endl;
 	sf::Texture texture;
 	First_island_type = Island_type(texture);
 }
