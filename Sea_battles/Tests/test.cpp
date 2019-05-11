@@ -190,6 +190,6 @@ TEST(Islands, Island_factory) {
 TEST(Map, Map) {
 	Map * map = new Map(1000, 2000);
 	for (int j = 0; j < map->islands.size(); ++j) {
-		cout << map->islands[j]->width() << '\n';
+		map->islands[j]->width();
 	}
 }
