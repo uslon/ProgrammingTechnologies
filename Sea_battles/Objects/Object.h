@@ -11,6 +11,7 @@ protected:
     point _position;
 
 public:
+    void display();
     point get_position ();
     void change_hp (int x);
     virtual ~Object() = default;

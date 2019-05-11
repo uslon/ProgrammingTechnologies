@@ -4,10 +4,16 @@
 
 
 #include "../googletest-master/googletest/include/gtest/gtest.h"
-#include "../Objects/Ships_classes/Ships.h"
 #include "../Objects/Buildings_classes/Buildings.h"
+#include "../Objects/Ships_classes/Ships.h"
+#include "../Objects/Islands_classes/Islands.h"
+#include "../Objects/Map.h"
 #include "../Metrics/Metrics.h"
+#include <SFML/Graphics.hpp>
+#include <iostream>
 #include <vector>
+
+using std::cout;
 
 const int MAXN = 1e5;
 
@@ -140,4 +146,50 @@ TEST(Singleton, japanese_headquarters_factory) {
     Japanese_headquarters * headquarters;
     EXPECT_EQ(0, japanese_factory->create(headquarters));
     EXPECT_EQ(1, japanese_factory->create(headquarters));
+}
+
+
+TEST(Islands, Islands_type) {
+	Island_type First_island_type;
+	sf::Texture texture;
+	First_island_type = Island_type(texture);
+}
+
+TEST(Islands, Island) {
+	point p = point(228, 322);
+	int width = 300, height = 400;
+	Island_type type;
+	Island first_island;
+	first_island = Island(p, width, height);
+	EXPECT_EQ(width, first_island.width());
+	EXPECT_EQ(height, first_island.height());
+	//EXPECT_EQ(p, first_island.coord());
+
+	first_island = Island(p, width, height, & type);
+}
+
+TEST(Islands, Island_factory) {
+	point p = point(228, 322);
+	int width = 300, height = 400;
+	Island_type type;
+	Island_factory factory;
+	Island * first_island = factory.create_island();
+	first_island = factory.create_island(p, width, height);
+	EXPECT_EQ(width, first_island->width());
+	EXPECT_EQ(height, first_island->height());
+	//EXPECT_EQ(p, first_island->coord());
+	
+	std::vector <Island *> islands(100000);
+	for (int j = 0; j < islands.size(); ++j) {
+		islands[j] = factory.create_island(p, width, height, & type);
+	}
+
+}
+
+
+TEST(Map, Map) {
+	Map * map = new Map(1000, 2000);
+	for (int j = 0; j < map->islands.size(); ++j) {
+		cout << map->islands[j]->width() << '\n';
+	}
 }

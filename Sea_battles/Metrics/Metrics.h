@@ -8,6 +8,7 @@ struct point {
     point();
     point(int x, int y);
 };
+const bool operator == (point const& a, point const& b);
 
 int square_dist (point a, point b);
 double dist (point a, point b);
