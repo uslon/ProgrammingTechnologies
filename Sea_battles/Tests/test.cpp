@@ -151,6 +151,7 @@ TEST(Singleton, japanese_headquarters_factory) {
 
 TEST(Islands, Islands_type) {
 	Island_type First_island_type;
+	cout << "Just for travis\n";
 	sf::Texture texture;
 	First_island_type = Island_type(texture);
 }
@@ -179,7 +180,7 @@ TEST(Islands, Island_factory) {
 	EXPECT_EQ(height, first_island->height());
 	//EXPECT_EQ(p, first_island->coord());
 	
-	std::vector <Island *> islands(100000);
+	std::vector <Island *> islands(MAXN);
 	for (int j = 0; j < islands.size(); ++j) {
 		islands[j] = factory.create_island(p, width, height, & type);
 	}
