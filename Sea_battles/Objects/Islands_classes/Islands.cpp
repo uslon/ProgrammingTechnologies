@@ -15,7 +15,7 @@ Island_type::Island_type(sf::Texture & texture) : texture(texture) {}
 void Island_type::display (sf::RenderWindow * window, point coords, int width, int height) {
 	sf::RectangleShape shape(sf::Vector2f(width, height));
 	shape.setTexture(&texture);
-	shape.setPosition(coords._x, coords._y);
+	shape.setPosition(coords.x, coords.y);
 	window->draw(shape);
 }
 

@@ -4,7 +4,7 @@
 #pragma once
 
 struct point {
-    int _x, _y;
+    int x, y;
     point();
     point(int x, int y);
 };

@@ -16,7 +16,7 @@
 using std::cout;
 
 const int MAXN = 1e5;
-
+/*
 TEST(sample_test, first) {
     EXPECT_EQ(1, 1);
 }
@@ -193,4 +193,4 @@ TEST(Map, Map) {
 	for (int j = 0; j < map->islands.size(); ++j) {
 		map->islands[j]->width();
 	}
-}
+}*/

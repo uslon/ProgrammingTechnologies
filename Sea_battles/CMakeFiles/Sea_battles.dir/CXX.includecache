@@ -49,6 +49,10 @@ random
 -
 vector
 -
+cassert
+-
+iostream
+-
 SFML/Window.hpp
 -
 Object.h
@@ -81,16 +85,26 @@ algorithm
 /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Metrics/Metrics.h
 
 /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Ships_classes/Ships.cpp
+SFML/Graphics.hpp
+-
+unordered_map
+-
 Ships.h
 /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Ships_classes/Ships.h
 
 /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Ships_classes/Ships.h
 vector
 -
+unordered_map
+-
 ../../Metrics/Metrics.h
 /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Metrics/Metrics.h
 ../Object.h
 /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Object.h
+SFML/Graphics.hpp
+-
+SFML/Window.hpp
+-
 
 /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Process/Simple_processes.cpp
 unistd.h
