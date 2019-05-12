@@ -39,7 +39,7 @@ bool is_in_right_position(std::vector <Island *> & islands, int already_set, int
 	int height = islands[already_set]->height();
 	point p = islands[already_set]->coords();
 	
-	if (p.x + width > map_width || p.y + height > map_height)
+	if (p.x + width + minimal_distance > map_width || p.y + height + minimal_distance > map_height || p.x < minimal_distance || p.y < minimal_distance)
 		return false;
 	
 	cout << "\tCoordinates are (" << p.x << ", " << p.y << ")\n";
@@ -51,7 +51,7 @@ bool is_in_right_position(std::vector <Island *> & islands, int already_set, int
 		if (intersect(islands[j]->coords(), islands[j]->width(), islands[j]->height(), islands[already_set]->coords(), islands[already_set]->width(), islands[already_set]->height()))
 			return false;
 	}
-	cout << "Island doesn't intersect others\n";
+	cout << "\tIsland doesn't intersect others\n";
 	return true;
 }
 
@@ -79,7 +79,7 @@ Map::Map(int height, int width, int number_of_islands) : _height(height), _width
 		}
 		if (cnt > 1000)
 			break;
-		cout << "Island " << j << " was set\n";
+		cout << "\tIsland " << j << " was set\n";
 	}
 	assert(cnt <= 1000);
 	const int red = 0, green = 127, blue = 255;

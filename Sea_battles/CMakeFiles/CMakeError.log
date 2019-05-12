@@ -15288,3 +15288,1103 @@ Makefile:126: recipe for target 'cmTC_ec1dd/fast' failed
 make: *** [cmTC_ec1dd/fast] Error 2
 
 
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc8bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc8bb.dir/build.make CMakeFiles/cmTC_cc8bb.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc8bb.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cc8bb.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cc8bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc8bb.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cc8bb.dir/CheckSymbolExists.c.o  -o cmTC_cc8bb 
+CMakeFiles/cmTC_cc8bb.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_cc8bb.dir/build.make:97: recipe for target 'cmTC_cc8bb' failed
+make[1]: *** [cmTC_cc8bb] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_cc8bb/fast' failed
+make: *** [cmTC_cc8bb/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_185e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_185e3.dir/build.make CMakeFiles/cmTC_185e3.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_185e3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_185e3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_185e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_185e3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_185e3.dir/CheckFunctionExists.c.o  -o cmTC_185e3 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_185e3.dir/build.make:97: recipe for target 'cmTC_185e3' failed
+make[1]: *** [cmTC_185e3] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_185e3/fast' failed
+make: *** [cmTC_185e3/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e03f4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e03f4.dir/build.make CMakeFiles/cmTC_e03f4.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e03f4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e03f4.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e03f4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e03f4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e03f4.dir/CheckSymbolExists.c.o  -o cmTC_e03f4 
+CMakeFiles/cmTC_e03f4.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e03f4.dir/build.make:97: recipe for target 'cmTC_e03f4' failed
+make[1]: *** [cmTC_e03f4] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e03f4/fast' failed
+make: *** [cmTC_e03f4/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d99f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d99f6.dir/build.make CMakeFiles/cmTC_d99f6.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d99f6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d99f6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d99f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d99f6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d99f6.dir/CheckFunctionExists.c.o  -o cmTC_d99f6 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d99f6.dir/build.make:97: recipe for target 'cmTC_d99f6' failed
+make[1]: *** [cmTC_d99f6] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d99f6/fast' failed
+make: *** [cmTC_d99f6/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6a32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6a32.dir/build.make CMakeFiles/cmTC_d6a32.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6a32.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d6a32.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d6a32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6a32.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d6a32.dir/CheckSymbolExists.c.o  -o cmTC_d6a32 
+CMakeFiles/cmTC_d6a32.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d6a32.dir/build.make:97: recipe for target 'cmTC_d6a32' failed
+make[1]: *** [cmTC_d6a32] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d6a32/fast' failed
+make: *** [cmTC_d6a32/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_115c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_115c7.dir/build.make CMakeFiles/cmTC_115c7.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_115c7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_115c7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_115c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_115c7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_115c7.dir/CheckFunctionExists.c.o  -o cmTC_115c7 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_115c7.dir/build.make:97: recipe for target 'cmTC_115c7' failed
+make[1]: *** [cmTC_115c7] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_115c7/fast' failed
+make: *** [cmTC_115c7/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8294/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8294.dir/build.make CMakeFiles/cmTC_f8294.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8294.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f8294.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f8294
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8294.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f8294.dir/CheckSymbolExists.c.o  -o cmTC_f8294 
+CMakeFiles/cmTC_f8294.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f8294.dir/build.make:97: recipe for target 'cmTC_f8294' failed
+make[1]: *** [cmTC_f8294] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f8294/fast' failed
+make: *** [cmTC_f8294/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_935e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_935e1.dir/build.make CMakeFiles/cmTC_935e1.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_935e1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_935e1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_935e1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_935e1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_935e1.dir/CheckFunctionExists.c.o  -o cmTC_935e1 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_935e1.dir/build.make:97: recipe for target 'cmTC_935e1' failed
+make[1]: *** [cmTC_935e1] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_935e1/fast' failed
+make: *** [cmTC_935e1/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ad467/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ad467.dir/build.make CMakeFiles/cmTC_ad467.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad467.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ad467.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ad467
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad467.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ad467.dir/CheckSymbolExists.c.o  -o cmTC_ad467 
+CMakeFiles/cmTC_ad467.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ad467.dir/build.make:97: recipe for target 'cmTC_ad467' failed
+make[1]: *** [cmTC_ad467] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ad467/fast' failed
+make: *** [cmTC_ad467/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_26d30/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26d30.dir/build.make CMakeFiles/cmTC_26d30.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26d30.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_26d30.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26d30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26d30.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_26d30.dir/CheckFunctionExists.c.o  -o cmTC_26d30 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_26d30.dir/build.make:97: recipe for target 'cmTC_26d30' failed
+make[1]: *** [cmTC_26d30] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_26d30/fast' failed
+make: *** [cmTC_26d30/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19b84/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19b84.dir/build.make CMakeFiles/cmTC_19b84.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19b84.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_19b84.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_19b84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19b84.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_19b84.dir/CheckSymbolExists.c.o  -o cmTC_19b84 
+CMakeFiles/cmTC_19b84.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_19b84.dir/build.make:97: recipe for target 'cmTC_19b84' failed
+make[1]: *** [cmTC_19b84] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_19b84/fast' failed
+make: *** [cmTC_19b84/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_03322/fast"
+/usr/bin/make -f CMakeFiles/cmTC_03322.dir/build.make CMakeFiles/cmTC_03322.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03322.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_03322.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_03322
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03322.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_03322.dir/CheckFunctionExists.c.o  -o cmTC_03322 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_03322.dir/build.make:97: recipe for target 'cmTC_03322' failed
+make[1]: *** [cmTC_03322] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_03322/fast' failed
+make: *** [cmTC_03322/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eba05/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eba05.dir/build.make CMakeFiles/cmTC_eba05.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eba05.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eba05.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_eba05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eba05.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_eba05.dir/CheckSymbolExists.c.o  -o cmTC_eba05 
+CMakeFiles/cmTC_eba05.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_eba05.dir/build.make:97: recipe for target 'cmTC_eba05' failed
+make[1]: *** [cmTC_eba05] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_eba05/fast' failed
+make: *** [cmTC_eba05/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f59eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f59eb.dir/build.make CMakeFiles/cmTC_f59eb.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f59eb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f59eb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f59eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f59eb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f59eb.dir/CheckFunctionExists.c.o  -o cmTC_f59eb -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f59eb.dir/build.make:97: recipe for target 'cmTC_f59eb' failed
+make[1]: *** [cmTC_f59eb] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f59eb/fast' failed
+make: *** [cmTC_f59eb/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6d5a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6d5a5.dir/build.make CMakeFiles/cmTC_6d5a5.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6d5a5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6d5a5.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6d5a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d5a5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6d5a5.dir/CheckSymbolExists.c.o  -o cmTC_6d5a5 
+CMakeFiles/cmTC_6d5a5.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_6d5a5.dir/build.make:97: recipe for target 'cmTC_6d5a5' failed
+make[1]: *** [cmTC_6d5a5] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_6d5a5/fast' failed
+make: *** [cmTC_6d5a5/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_10a24/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10a24.dir/build.make CMakeFiles/cmTC_10a24.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10a24.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_10a24.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_10a24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10a24.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_10a24.dir/CheckFunctionExists.c.o  -o cmTC_10a24 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_10a24.dir/build.make:97: recipe for target 'cmTC_10a24' failed
+make[1]: *** [cmTC_10a24] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_10a24/fast' failed
+make: *** [cmTC_10a24/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76de2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76de2.dir/build.make CMakeFiles/cmTC_76de2.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76de2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_76de2.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_76de2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76de2.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_76de2.dir/CheckSymbolExists.c.o  -o cmTC_76de2 
+CMakeFiles/cmTC_76de2.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_76de2.dir/build.make:97: recipe for target 'cmTC_76de2' failed
+make[1]: *** [cmTC_76de2] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_76de2/fast' failed
+make: *** [cmTC_76de2/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be901/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be901.dir/build.make CMakeFiles/cmTC_be901.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be901.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_be901.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_be901
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be901.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_be901.dir/CheckFunctionExists.c.o  -o cmTC_be901 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_be901.dir/build.make:97: recipe for target 'cmTC_be901' failed
+make[1]: *** [cmTC_be901] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_be901/fast' failed
+make: *** [cmTC_be901/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_67836/fast"
+/usr/bin/make -f CMakeFiles/cmTC_67836.dir/build.make CMakeFiles/cmTC_67836.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67836.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_67836.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_67836
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67836.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_67836.dir/CheckSymbolExists.c.o  -o cmTC_67836 
+CMakeFiles/cmTC_67836.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_67836.dir/build.make:97: recipe for target 'cmTC_67836' failed
+make[1]: *** [cmTC_67836] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_67836/fast' failed
+make: *** [cmTC_67836/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3fa4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3fa4.dir/build.make CMakeFiles/cmTC_d3fa4.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d3fa4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d3fa4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d3fa4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3fa4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d3fa4.dir/CheckFunctionExists.c.o  -o cmTC_d3fa4 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_d3fa4.dir/build.make:97: recipe for target 'cmTC_d3fa4' failed
+make[1]: *** [cmTC_d3fa4] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_d3fa4/fast' failed
+make: *** [cmTC_d3fa4/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3fa32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3fa32.dir/build.make CMakeFiles/cmTC_3fa32.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3fa32.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3fa32.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3fa32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3fa32.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3fa32.dir/CheckSymbolExists.c.o  -o cmTC_3fa32 
+CMakeFiles/cmTC_3fa32.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3fa32.dir/build.make:97: recipe for target 'cmTC_3fa32' failed
+make[1]: *** [cmTC_3fa32] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3fa32/fast' failed
+make: *** [cmTC_3fa32/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0fb7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0fb7.dir/build.make CMakeFiles/cmTC_e0fb7.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0fb7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e0fb7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0fb7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0fb7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e0fb7.dir/CheckFunctionExists.c.o  -o cmTC_e0fb7 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e0fb7.dir/build.make:97: recipe for target 'cmTC_e0fb7' failed
+make[1]: *** [cmTC_e0fb7] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e0fb7/fast' failed
+make: *** [cmTC_e0fb7/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed8b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ed8b7.dir/build.make CMakeFiles/cmTC_ed8b7.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ed8b7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ed8b7.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ed8b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed8b7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ed8b7.dir/CheckSymbolExists.c.o  -o cmTC_ed8b7 
+CMakeFiles/cmTC_ed8b7.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ed8b7.dir/build.make:97: recipe for target 'cmTC_ed8b7' failed
+make[1]: *** [cmTC_ed8b7] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ed8b7/fast' failed
+make: *** [cmTC_ed8b7/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f52b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f52b4.dir/build.make CMakeFiles/cmTC_f52b4.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f52b4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f52b4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f52b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f52b4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f52b4.dir/CheckFunctionExists.c.o  -o cmTC_f52b4 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f52b4.dir/build.make:97: recipe for target 'cmTC_f52b4' failed
+make[1]: *** [cmTC_f52b4] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f52b4/fast' failed
+make: *** [cmTC_f52b4/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2641c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2641c.dir/build.make CMakeFiles/cmTC_2641c.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2641c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2641c.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2641c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2641c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2641c.dir/CheckSymbolExists.c.o  -o cmTC_2641c 
+CMakeFiles/cmTC_2641c.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2641c.dir/build.make:97: recipe for target 'cmTC_2641c' failed
+make[1]: *** [cmTC_2641c] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2641c/fast' failed
+make: *** [cmTC_2641c/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9037b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9037b.dir/build.make CMakeFiles/cmTC_9037b.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9037b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_9037b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9037b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9037b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_9037b.dir/CheckFunctionExists.c.o  -o cmTC_9037b -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_9037b.dir/build.make:97: recipe for target 'cmTC_9037b' failed
+make[1]: *** [cmTC_9037b] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9037b/fast' failed
+make: *** [cmTC_9037b/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_afa91/fast"
+/usr/bin/make -f CMakeFiles/cmTC_afa91.dir/build.make CMakeFiles/cmTC_afa91.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afa91.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_afa91.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_afa91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afa91.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_afa91.dir/CheckSymbolExists.c.o  -o cmTC_afa91 
+CMakeFiles/cmTC_afa91.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_afa91.dir/build.make:97: recipe for target 'cmTC_afa91' failed
+make[1]: *** [cmTC_afa91] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_afa91/fast' failed
+make: *** [cmTC_afa91/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0825b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0825b.dir/build.make CMakeFiles/cmTC_0825b.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0825b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0825b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0825b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0825b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0825b.dir/CheckFunctionExists.c.o  -o cmTC_0825b -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_0825b.dir/build.make:97: recipe for target 'cmTC_0825b' failed
+make[1]: *** [cmTC_0825b] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_0825b/fast' failed
+make: *** [cmTC_0825b/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50888/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50888.dir/build.make CMakeFiles/cmTC_50888.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50888.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_50888.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_50888
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50888.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_50888.dir/CheckSymbolExists.c.o  -o cmTC_50888 
+CMakeFiles/cmTC_50888.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_50888.dir/build.make:97: recipe for target 'cmTC_50888' failed
+make[1]: *** [cmTC_50888] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_50888/fast' failed
+make: *** [cmTC_50888/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8e01/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8e01.dir/build.make CMakeFiles/cmTC_b8e01.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b8e01.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b8e01.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b8e01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8e01.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b8e01.dir/CheckFunctionExists.c.o  -o cmTC_b8e01 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b8e01.dir/build.make:97: recipe for target 'cmTC_b8e01' failed
+make[1]: *** [cmTC_b8e01] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b8e01/fast' failed
+make: *** [cmTC_b8e01/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_908a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_908a3.dir/build.make CMakeFiles/cmTC_908a3.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_908a3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_908a3.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_908a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_908a3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_908a3.dir/CheckSymbolExists.c.o  -o cmTC_908a3 
+CMakeFiles/cmTC_908a3.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_908a3.dir/build.make:97: recipe for target 'cmTC_908a3' failed
+make[1]: *** [cmTC_908a3] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_908a3/fast' failed
+make: *** [cmTC_908a3/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b96d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b96d2.dir/build.make CMakeFiles/cmTC_b96d2.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b96d2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b96d2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b96d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b96d2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b96d2.dir/CheckFunctionExists.c.o  -o cmTC_b96d2 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b96d2.dir/build.make:97: recipe for target 'cmTC_b96d2' failed
+make[1]: *** [cmTC_b96d2] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b96d2/fast' failed
+make: *** [cmTC_b96d2/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8e2a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8e2a.dir/build.make CMakeFiles/cmTC_f8e2a.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8e2a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f8e2a.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f8e2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8e2a.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f8e2a.dir/CheckSymbolExists.c.o  -o cmTC_f8e2a 
+CMakeFiles/cmTC_f8e2a.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f8e2a.dir/build.make:97: recipe for target 'cmTC_f8e2a' failed
+make[1]: *** [cmTC_f8e2a] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f8e2a/fast' failed
+make: *** [cmTC_f8e2a/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b57bc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b57bc.dir/build.make CMakeFiles/cmTC_b57bc.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b57bc.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b57bc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b57bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b57bc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b57bc.dir/CheckFunctionExists.c.o  -o cmTC_b57bc -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b57bc.dir/build.make:97: recipe for target 'cmTC_b57bc' failed
+make[1]: *** [cmTC_b57bc] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b57bc/fast' failed
+make: *** [cmTC_b57bc/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4cd85/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4cd85.dir/build.make CMakeFiles/cmTC_4cd85.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4cd85.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4cd85.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4cd85
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4cd85.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4cd85.dir/CheckSymbolExists.c.o  -o cmTC_4cd85 
+CMakeFiles/cmTC_4cd85.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_4cd85.dir/build.make:97: recipe for target 'cmTC_4cd85' failed
+make[1]: *** [cmTC_4cd85] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4cd85/fast' failed
+make: *** [cmTC_4cd85/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76cd1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76cd1.dir/build.make CMakeFiles/cmTC_76cd1.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76cd1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_76cd1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_76cd1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76cd1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_76cd1.dir/CheckFunctionExists.c.o  -o cmTC_76cd1 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_76cd1.dir/build.make:97: recipe for target 'cmTC_76cd1' failed
+make[1]: *** [cmTC_76cd1] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_76cd1/fast' failed
+make: *** [cmTC_76cd1/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5f3c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5f3c4.dir/build.make CMakeFiles/cmTC_5f3c4.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f3c4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5f3c4.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5f3c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f3c4.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_5f3c4.dir/CheckSymbolExists.c.o  -o cmTC_5f3c4 
+CMakeFiles/cmTC_5f3c4.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_5f3c4.dir/build.make:97: recipe for target 'cmTC_5f3c4' failed
+make[1]: *** [cmTC_5f3c4] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_5f3c4/fast' failed
+make: *** [cmTC_5f3c4/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b6423/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b6423.dir/build.make CMakeFiles/cmTC_b6423.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b6423.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b6423.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b6423
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6423.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b6423.dir/CheckFunctionExists.c.o  -o cmTC_b6423 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_b6423.dir/build.make:97: recipe for target 'cmTC_b6423' failed
+make[1]: *** [cmTC_b6423] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_b6423/fast' failed
+make: *** [cmTC_b6423/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_193b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_193b6.dir/build.make CMakeFiles/cmTC_193b6.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_193b6.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_193b6.dir/CheckSymbolExists.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_193b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_193b6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_193b6.dir/CheckSymbolExists.c.o  -o cmTC_193b6 
+CMakeFiles/cmTC_193b6.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_193b6.dir/build.make:97: recipe for target 'cmTC_193b6' failed
+make[1]: *** [cmTC_193b6] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_193b6/fast' failed
+make: *** [cmTC_193b6/fast] Error 2
+
+File /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa5bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa5bb.dir/build.make CMakeFiles/cmTC_aa5bb.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa5bb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aa5bb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aa5bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa5bb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_aa5bb.dir/CheckFunctionExists.c.o  -o cmTC_aa5bb -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_aa5bb.dir/build.make:97: recipe for target 'cmTC_aa5bb' failed
+make[1]: *** [cmTC_aa5bb] Error 1
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_aa5bb/fast' failed
+make: *** [cmTC_aa5bb/fast] Error 2
+
+
