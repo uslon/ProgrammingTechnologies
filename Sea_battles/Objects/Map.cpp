@@ -42,8 +42,7 @@ bool is_in_right_position(std::vector <Island *> & islands, int already_set, int
 	if (p.x + width > map_width || p.y + height > map_height)
 		return false;
 	
-	cout << "Island fits map\n";
-	cout << "Coordinates are (" << p.x << ", " << p.y << ")\n";
+	cout << "\tCoordinates are (" << p.x << ", " << p.y << ")\n";
 	for (int j = 0; j < already_set; ++j) {
 		point cur_p = islands[j]->coords();
 		int cur_width = islands[j]->width();
@@ -83,7 +82,7 @@ Map::Map(int height, int width, int number_of_islands) : _height(height), _width
 		cout << "Island " << j << " was set\n";
 	}
 	assert(cnt <= 1000);
-	const int red = 0, green = rnd() % 256, blue = 255;
+	const int red = 0, green = 127, blue = 255;
 	sea.setFillColor(sf::Color(red, green, blue));
 }
 
@@ -93,6 +92,7 @@ void Map::display(sf::RenderWindow * window) {
 		islands[j]->display(window);
 	}
 	for (int j = 0; j < ships.size(); ++j) {
+		ships[j]->move();
 		ships[j]->display(window);
 	}
 }

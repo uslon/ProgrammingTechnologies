@@ -11,15 +11,6 @@
 
 using std::cin;
 using std::cout;
-        
-const int colonists_ship_width = 20, light_ship_width = 20, heavy_ship_width = 30;
-const int colonists_ship_length = 30, light_ship_length = 40, heavy_ship_length = 60;
-
-std::unordered_map <string, std::pair<int, int> > Ship_type::size_of_ship = {
-	{"CLN", {colonists_ship_width, colonists_ship_length} },
-        {"LGT", {light_ship_width, light_ship_length} },
-        {"HVY", {heavy_ship_width, heavy_ship_length} }
-};
 
 
 int main(int argc, char * argv[]) {
@@ -39,6 +30,29 @@ int main(int argc, char * argv[]) {
 	Japanese_ship_factory factory;
 	Japanese_heavy_ship * ship = factory.create_heavy_ship(&type);
 	map.ships.push_back(ship);
+	ship->set_position({current_video_mode.width >> 1, current_video_mode.height >> 1});
+	
+	point cur_pos = ship->get_position();
+	for (int j = 0; j < 100; j++) {
+		ship->path.push(cur_pos);
+		cur_pos.x++;
+	}
+
+	for (int j = 0; j < 100; j++) {
+		ship->path.push(cur_pos);
+		cur_pos.y++;
+	}
+
+	for (int j = 0; j < 200; j++) {
+		ship->path.push(cur_pos);
+		cur_pos.x--;
+	}
+
+	for (int j = 0; j < 300; j++) {
+		ship->path.push(cur_pos);
+		cur_pos.y--;
+	}
+
 	while (window.isOpen()) {
        		sf::Event event;
        		while (window.pollEvent(event)) {

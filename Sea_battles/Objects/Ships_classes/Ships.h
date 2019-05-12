@@ -1,5 +1,5 @@
 #pragma once
-#include <vector>
+#include <queue>
 #include <unordered_map>
 #include "../../Metrics/Metrics.h"
 #include "../Object.h"
@@ -14,6 +14,7 @@ class Ship_type {
 	int width, length;
 
 public:	
+	static std::unordered_map <string, int> angles;
 	static std::unordered_map <string, std::pair <int, int> > size_of_ship;
 	Ship_type(string nation, string type);
 	Ship_type(sf::Texture & texture, string type);
@@ -23,11 +24,11 @@ public:
 
 class Ship : public Object {
 protected:
-    	int _speed;
+    	int _period_of_movement, _current_period;
 	string direction;    
 
 public:
-	std::vector <point> path;
+	std::queue <point> path;
 	Ship_type * type;
 
 	Ship(Ship_type * type);

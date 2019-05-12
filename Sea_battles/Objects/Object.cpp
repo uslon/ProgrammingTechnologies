@@ -13,3 +13,6 @@ void Object::change_hp(int x) {
     _cur_hp = std::min(_cur_hp, _max_hp);
 }
 
+void Object::set_position(point coords) {
+	_coords = coords;
+}

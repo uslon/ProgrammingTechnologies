@@ -89,11 +89,13 @@ SFML/Graphics.hpp
 -
 unordered_map
 -
+queue
+-
 Ships.h
 /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Ships_classes/Ships.h
 
 /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/Objects/Ships_classes/Ships.h
-vector
+queue
 -
 unordered_map
 -

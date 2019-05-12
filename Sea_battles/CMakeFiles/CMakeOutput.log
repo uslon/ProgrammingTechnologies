@@ -9001,3 +9001,871 @@ Linking C executable cmTC_39fe1
 make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b352d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b352d.dir/build.make CMakeFiles/cmTC_b352d.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b352d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b352d.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b352d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b352d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b352d.dir/CheckIncludeFile.c.o  -o cmTC_b352d 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bd2cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bd2cd.dir/build.make CMakeFiles/cmTC_bd2cd.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd2cd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_bd2cd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bd2cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd2cd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_bd2cd.dir/CheckFunctionExists.c.o  -o cmTC_bd2cd -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d7521/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d7521.dir/build.make CMakeFiles/cmTC_d7521.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7521.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d7521.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d7521
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7521.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_d7521.dir/CheckIncludeFile.c.o  -o cmTC_d7521 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56265/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56265.dir/build.make CMakeFiles/cmTC_56265.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56265.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_56265.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_56265
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56265.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_56265.dir/CheckFunctionExists.c.o  -o cmTC_56265 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_485a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_485a1.dir/build.make CMakeFiles/cmTC_485a1.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_485a1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_485a1.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_485a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_485a1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_485a1.dir/CheckIncludeFile.c.o  -o cmTC_485a1 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0bbd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e0bbd.dir/build.make CMakeFiles/cmTC_e0bbd.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0bbd.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e0bbd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e0bbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0bbd.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e0bbd.dir/CheckFunctionExists.c.o  -o cmTC_e0bbd -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_27492/fast"
+/usr/bin/make -f CMakeFiles/cmTC_27492.dir/build.make CMakeFiles/cmTC_27492.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27492.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_27492.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_27492
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27492.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_27492.dir/CheckIncludeFile.c.o  -o cmTC_27492 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a37ba/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a37ba.dir/build.make CMakeFiles/cmTC_a37ba.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a37ba.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a37ba.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a37ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a37ba.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a37ba.dir/CheckFunctionExists.c.o  -o cmTC_a37ba -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f31a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f31a5.dir/build.make CMakeFiles/cmTC_f31a5.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f31a5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f31a5.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f31a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f31a5.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_f31a5.dir/CheckIncludeFile.c.o  -o cmTC_f31a5 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_199c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_199c3.dir/build.make CMakeFiles/cmTC_199c3.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_199c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_199c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_199c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_199c3.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_199c3.dir/CheckFunctionExists.c.o  -o cmTC_199c3 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_adc9d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_adc9d.dir/build.make CMakeFiles/cmTC_adc9d.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_adc9d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_adc9d.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_adc9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_adc9d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_adc9d.dir/CheckIncludeFile.c.o  -o cmTC_adc9d 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b22c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b22c6.dir/build.make CMakeFiles/cmTC_b22c6.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b22c6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b22c6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b22c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b22c6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b22c6.dir/CheckFunctionExists.c.o  -o cmTC_b22c6 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71c3b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71c3b.dir/build.make CMakeFiles/cmTC_71c3b.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71c3b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_71c3b.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_71c3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71c3b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_71c3b.dir/CheckIncludeFile.c.o  -o cmTC_71c3b 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a0121/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a0121.dir/build.make CMakeFiles/cmTC_a0121.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a0121.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a0121.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a0121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0121.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a0121.dir/CheckFunctionExists.c.o  -o cmTC_a0121 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57c99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57c99.dir/build.make CMakeFiles/cmTC_57c99.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57c99.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_57c99.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_57c99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57c99.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_57c99.dir/CheckIncludeFile.c.o  -o cmTC_57c99 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d61f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d61f9.dir/build.make CMakeFiles/cmTC_d61f9.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d61f9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d61f9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d61f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d61f9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_d61f9.dir/CheckFunctionExists.c.o  -o cmTC_d61f9 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aac8f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aac8f.dir/build.make CMakeFiles/cmTC_aac8f.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aac8f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_aac8f.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_aac8f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aac8f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_aac8f.dir/CheckIncludeFile.c.o  -o cmTC_aac8f 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b175/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b175.dir/build.make CMakeFiles/cmTC_5b175.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b175.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5b175.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5b175
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b175.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5b175.dir/CheckFunctionExists.c.o  -o cmTC_5b175 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_90183/fast"
+/usr/bin/make -f CMakeFiles/cmTC_90183.dir/build.make CMakeFiles/cmTC_90183.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_90183.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_90183.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_90183
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90183.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_90183.dir/CheckIncludeFile.c.o  -o cmTC_90183 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f5234/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f5234.dir/build.make CMakeFiles/cmTC_f5234.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5234.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f5234.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f5234
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5234.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f5234.dir/CheckFunctionExists.c.o  -o cmTC_f5234 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_65a96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_65a96.dir/build.make CMakeFiles/cmTC_65a96.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_65a96.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_65a96.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_65a96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65a96.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_65a96.dir/CheckIncludeFile.c.o  -o cmTC_65a96 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fe7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4fe7b.dir/build.make CMakeFiles/cmTC_4fe7b.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4fe7b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4fe7b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4fe7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fe7b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4fe7b.dir/CheckFunctionExists.c.o  -o cmTC_4fe7b -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b766/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b766.dir/build.make CMakeFiles/cmTC_0b766.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b766.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0b766.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0b766
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b766.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_0b766.dir/CheckIncludeFile.c.o  -o cmTC_0b766 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_74f82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_74f82.dir/build.make CMakeFiles/cmTC_74f82.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74f82.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_74f82.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74f82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74f82.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_74f82.dir/CheckFunctionExists.c.o  -o cmTC_74f82 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_34fcd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_34fcd.dir/build.make CMakeFiles/cmTC_34fcd.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_34fcd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_34fcd.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_34fcd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34fcd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_34fcd.dir/CheckIncludeFile.c.o  -o cmTC_34fcd 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0d835/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0d835.dir/build.make CMakeFiles/cmTC_0d835.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0d835.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0d835.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0d835
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0d835.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0d835.dir/CheckFunctionExists.c.o  -o cmTC_0d835 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3328b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3328b.dir/build.make CMakeFiles/cmTC_3328b.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3328b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3328b.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3328b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3328b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_3328b.dir/CheckIncludeFile.c.o  -o cmTC_3328b 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c9b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c9b1.dir/build.make CMakeFiles/cmTC_5c9b1.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c9b1.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5c9b1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5c9b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c9b1.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5c9b1.dir/CheckFunctionExists.c.o  -o cmTC_5c9b1 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1a51e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1a51e.dir/build.make CMakeFiles/cmTC_1a51e.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a51e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1a51e.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1a51e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a51e.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_1a51e.dir/CheckIncludeFile.c.o  -o cmTC_1a51e 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b807/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b807.dir/build.make CMakeFiles/cmTC_8b807.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b807.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8b807.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8b807
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b807.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_8b807.dir/CheckFunctionExists.c.o  -o cmTC_8b807 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_283a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_283a3.dir/build.make CMakeFiles/cmTC_283a3.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_283a3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_283a3.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_283a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_283a3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_283a3.dir/CheckIncludeFile.c.o  -o cmTC_283a3 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5bf56/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5bf56.dir/build.make CMakeFiles/cmTC_5bf56.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5bf56.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5bf56.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5bf56
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bf56.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5bf56.dir/CheckFunctionExists.c.o  -o cmTC_5bf56 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_252b6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_252b6.dir/build.make CMakeFiles/cmTC_252b6.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_252b6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_252b6.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_252b6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_252b6.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_252b6.dir/CheckIncludeFile.c.o  -o cmTC_252b6 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6f0a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6f0a.dir/build.make CMakeFiles/cmTC_c6f0a.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6f0a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c6f0a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6f0a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6f0a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c6f0a.dir/CheckFunctionExists.c.o  -o cmTC_c6f0a -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7ca67/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7ca67.dir/build.make CMakeFiles/cmTC_7ca67.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ca67.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7ca67.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7ca67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ca67.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7ca67.dir/CheckIncludeFile.c.o  -o cmTC_7ca67 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0488c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0488c.dir/build.make CMakeFiles/cmTC_0488c.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0488c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0488c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0488c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0488c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_0488c.dir/CheckFunctionExists.c.o  -o cmTC_0488c -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9c358/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9c358.dir/build.make CMakeFiles/cmTC_9c358.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9c358.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9c358.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9c358
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c358.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9c358.dir/CheckIncludeFile.c.o  -o cmTC_9c358 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf7c2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf7c2.dir/build.make CMakeFiles/cmTC_cf7c2.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf7c2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_cf7c2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf7c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf7c2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_cf7c2.dir/CheckFunctionExists.c.o  -o cmTC_cf7c2 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50801/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50801.dir/build.make CMakeFiles/cmTC_50801.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50801.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_50801.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_50801
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50801.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_50801.dir/CheckIncludeFile.c.o  -o cmTC_50801 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b184/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5b184.dir/build.make CMakeFiles/cmTC_5b184.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b184.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5b184.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5b184
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b184.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5b184.dir/CheckFunctionExists.c.o  -o cmTC_5b184 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6443d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6443d.dir/build.make CMakeFiles/cmTC_6443d.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6443d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6443d.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6443d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6443d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_6443d.dir/CheckIncludeFile.c.o  -o cmTC_6443d 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_282d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_282d7.dir/build.make CMakeFiles/cmTC_282d7.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_282d7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_282d7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_282d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_282d7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_282d7.dir/CheckFunctionExists.c.o  -o cmTC_282d7 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef10b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ef10b.dir/build.make CMakeFiles/cmTC_ef10b.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef10b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ef10b.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ef10b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef10b.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ef10b.dir/CheckIncludeFile.c.o  -o cmTC_ef10b 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69f3c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69f3c.dir/build.make CMakeFiles/cmTC_69f3c.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_69f3c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_69f3c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69f3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69f3c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_69f3c.dir/CheckFunctionExists.c.o  -o cmTC_69f3c -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b57d7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b57d7.dir/build.make CMakeFiles/cmTC_b57d7.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b57d7.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b57d7.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b57d7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b57d7.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_b57d7.dir/CheckIncludeFile.c.o  -o cmTC_b57d7 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f54bb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f54bb.dir/build.make CMakeFiles/cmTC_f54bb.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f54bb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f54bb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f54bb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f54bb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_f54bb.dir/CheckFunctionExists.c.o  -o cmTC_f54bb -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8c517/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8c517.dir/build.make CMakeFiles/cmTC_8c517.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c517.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8c517.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8c517
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c517.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_8c517.dir/CheckIncludeFile.c.o  -o cmTC_8c517 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_57f24/fast"
+/usr/bin/make -f CMakeFiles/cmTC_57f24.dir/build.make CMakeFiles/cmTC_57f24.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57f24.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_57f24.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_57f24
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57f24.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_57f24.dir/CheckFunctionExists.c.o  -o cmTC_57f24 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e25b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e25b1.dir/build.make CMakeFiles/cmTC_e25b1.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e25b1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e25b1.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e25b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e25b1.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_e25b1.dir/CheckIncludeFile.c.o  -o cmTC_e25b1 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84f0e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84f0e.dir/build.make CMakeFiles/cmTC_84f0e.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84f0e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_84f0e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_84f0e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84f0e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_84f0e.dir/CheckFunctionExists.c.o  -o cmTC_84f0e -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e77f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e77f.dir/build.make CMakeFiles/cmTC_7e77f.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e77f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7e77f.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7e77f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e77f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7e77f.dir/CheckIncludeFile.c.o  -o cmTC_7e77f 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1cc21/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1cc21.dir/build.make CMakeFiles/cmTC_1cc21.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1cc21.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1cc21.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1cc21
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1cc21.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1cc21.dir/CheckFunctionExists.c.o  -o cmTC_1cc21 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_592cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_592cd.dir/build.make CMakeFiles/cmTC_592cd.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_592cd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_592cd.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_592cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_592cd.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_592cd.dir/CheckIncludeFile.c.o  -o cmTC_592cd 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e2046/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e2046.dir/build.make CMakeFiles/cmTC_e2046.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2046.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e2046.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e2046
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2046.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_e2046.dir/CheckFunctionExists.c.o  -o cmTC_e2046 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9283c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9283c.dir/build.make CMakeFiles/cmTC_9283c.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9283c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9283c.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9283c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9283c.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_9283c.dir/CheckIncludeFile.c.o  -o cmTC_9283c 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87e28/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87e28.dir/build.make CMakeFiles/cmTC_87e28.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87e28.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_87e28.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_87e28
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87e28.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_87e28.dir/CheckFunctionExists.c.o  -o cmTC_87e28 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82313/fast"
+/usr/bin/make -f CMakeFiles/cmTC_82313.dir/build.make CMakeFiles/cmTC_82313.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82313.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_82313.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_82313
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82313.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_82313.dir/CheckIncludeFile.c.o  -o cmTC_82313 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06157/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06157.dir/build.make CMakeFiles/cmTC_06157.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_06157.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_06157.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_06157
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06157.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_06157.dir/CheckFunctionExists.c.o  -o cmTC_06157 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71e43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71e43.dir/build.make CMakeFiles/cmTC_71e43.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71e43.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_71e43.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_71e43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71e43.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_71e43.dir/CheckIncludeFile.c.o  -o cmTC_71e43 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aefce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aefce.dir/build.make CMakeFiles/cmTC_aefce.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aefce.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_aefce.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aefce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aefce.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_aefce.dir/CheckFunctionExists.c.o  -o cmTC_aefce -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_29906/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29906.dir/build.make CMakeFiles/cmTC_29906.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29906.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_29906.dir/CheckIncludeFile.c.o   -c /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_29906
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29906.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_29906.dir/CheckIncludeFile.c.o  -o cmTC_29906 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_07de8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_07de8.dir/build.make CMakeFiles/cmTC_07de8.dir/build
+make[1]: Entering directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_07de8.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_07de8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_07de8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07de8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_07de8.dir/CheckFunctionExists.c.o  -o cmTC_07de8 -lpthread 
+make[1]: Leaving directory '/home/amir/Documents/PT/ProgrammingTechnologies/Sea_battles/CMakeFiles/CMakeTmp'
+
+

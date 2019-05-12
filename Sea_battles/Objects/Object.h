@@ -11,7 +11,8 @@ protected:
     point _coords;
 
 public:
-    point get_position ();
+    point get_position();
+    void set_position(point coords);
     void change_hp (int x);
     virtual ~Object() = default;
 };
