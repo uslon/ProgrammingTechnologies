@@ -58,9 +58,15 @@ int main(int argc, char * argv[]) {
        		while (window.pollEvent(event)) {
        			if (event.type == sf::Event::Closed)
         			window.close();
+			
+			/*
+			if (event.type == sf::Event::MouseMoved) {
+    				std::cout << "new mouse x: " << event.mouseMove.x << std::endl;
+    				std::cout << "new mouse y: " << event.mouseMove.y << std::endl;
+			}*/
+
        		}
        			
-		window.draw(rectangle);
 		map.display(& window);
 		window.display();
    	}

@@ -12,7 +12,7 @@ using std::string;
 
 const int colonists_ship_width = 20, light_ship_width = 20, heavy_ship_width = 30;
 const int colonists_ship_length = 30, light_ship_length = 40, heavy_ship_length = 60;
-const int default_pom = 2;
+const int default_pom = 10;
 
 std::unordered_map <string, std::pair<int, int> > Ship_type::size_of_ship = {
         {"CLN", {colonists_ship_width, colonists_ship_length} },

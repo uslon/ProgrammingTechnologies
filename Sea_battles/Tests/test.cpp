@@ -15,64 +15,66 @@
 
 using std::cout;
 
-const int MAXN = 1e5;
-/*
-TEST(sample_test, first) {
-    EXPECT_EQ(1, 1);
-}
+const int STRESS_MAXN = 3e6, MAXN = 100;
 
 
 TEST(Ship_factory, japanese_fabric) {
     Japanese_ship_factory japanese_fabric;
-    std::vector <Heavy_ship *> heavy_fleet(100);
-    for (int j = 0; j < heavy_fleet.size(); j++) {
-        heavy_fleet[j] = japanese_fabric.create_heavy_ship();
+    std::vector <Heavy_ship *> heavy_fleet;
+    Ship_type heavy("JPN", "HVY");
+    for (int j = 0; j < MAXN; j++) {
+        heavy_fleet.push_back(japanese_fabric.create_heavy_ship(& heavy));
     }
-    std::vector <Light_ship *> light_fleet(100);
-    for (int j = 0; j < light_fleet.size(); j++) {
-        light_fleet[j] = japanese_fabric.create_light_ship();
+    Ship_type light("JPN", "LGT");
+    std::vector <Light_ship *> light_fleet;
+    for (int j = 0; j < MAXN; j++) {
+        light_fleet.push_back(japanese_fabric.create_light_ship(& light));
     }
-    std::vector <Colonists_ship *> colonists_fleet(100);
-    for (int j = 0; j < colonists_fleet.size(); j++) {
-        colonists_fleet[j] = japanese_fabric.create_colonists_ship();
+    Ship_type colonists("JPN", "CLN");
+    std::vector <Colonists_ship *> colonists_fleet;
+    for (int j = 0; j < MAXN; j++) {
+        colonists_fleet.push_back(japanese_fabric.create_colonists_ship(& colonists));
     }
 }
 
 TEST(Ship_factory, scandinavian_fabric) {
     Scandinavian_ship_factory scandinavian_fabric;
-    std::vector <Heavy_ship *> heavy_fleet(100);
-    for (int j = 0; j < heavy_fleet.size(); j++) {
-        heavy_fleet[j] = scandinavian_fabric.create_heavy_ship();
+    Ship_type heavy("SCN", "HVY"), light("SCN", "LGT"), colonists("SCN", "CLN");
+    std::vector <Heavy_ship *> heavy_fleet;
+    for (int j = 0; j < MAXN; j++) {
+        heavy_fleet.push_back(scandinavian_fabric.create_heavy_ship(& heavy));
     }
-    std::vector <Light_ship *> light_fleet(100);
-    for (int j = 0; j < light_fleet.size(); j++) {
-        light_fleet[j] = scandinavian_fabric.create_light_ship();
+    std::vector <Light_ship *> light_fleet;
+    for (int j = 0; j < MAXN; j++) {
+        light_fleet.push_back(scandinavian_fabric.create_light_ship(& light));
     }
-    std::vector <Colonists_ship *> colonitst_fleet(100);
-    for (int j = 0; j < colonitst_fleet.size(); j++) {
-        colonitst_fleet[j] = scandinavian_fabric.create_colonists_ship();
+    std::vector <Colonists_ship *> colonitst_fleet;
+    for (int j = 0; j < MAXN; j++) {
+        colonitst_fleet.push_back(scandinavian_fabric.create_colonists_ship(& colonists));
     }
 }
 
 TEST(Ship_factory, scandinavian_and_japanese) {
     Scandinavian_ship_factory scandinavian_fabric;
     Japanese_ship_factory japanese_fabric;
+    Ship_type heavy_jpn("JPN", "HVY"), light_jpn("JPN", "LGT"), colonists_jpn("JPN", "CLN");
+    Ship_type heavy_scn("SCN", "HVY"), light_scn("SCN", "LGT"), colonists_scn("SCN", "CLN");
     std::vector <Ship *> fleet(MAXN);
     for (int j = 0; j < fleet.size() >> 1; j++) {
         if (j % 3 == 0)
-            fleet[j] = scandinavian_fabric.create_heavy_ship();
+            fleet[j] = scandinavian_fabric.create_heavy_ship(& heavy_scn);
         else if (j % 3 == 1)
-            fleet[j] = scandinavian_fabric.create_light_ship();
+            fleet[j] = scandinavian_fabric.create_light_ship(& light_scn);
         else
-            fleet[j] = scandinavian_fabric.create_colonists_ship();
+            fleet[j] = scandinavian_fabric.create_colonists_ship(& colonists_scn);
     }
     for (int j = 0; j < fleet.size() >> 1; ++j) {
         if (j % 3 == 0)
-            fleet[fleet.size() - 1 - j] = japanese_fabric.create_heavy_ship();
+            fleet[fleet.size() - 1 - j] = japanese_fabric.create_heavy_ship(& heavy_jpn);
         else if (j % 3 == 1)
-            fleet[fleet.size() - 1 - j] = japanese_fabric.create_light_ship();
+            fleet[fleet.size() - 1 - j] = japanese_fabric.create_light_ship(& light_jpn);
         else
-            fleet[fleet.size() - 1 - j] = japanese_fabric.create_colonists_ship();
+            fleet[fleet.size() - 1 - j] = japanese_fabric.create_colonists_ship(& colonists_jpn);
     }
 }
 
@@ -193,4 +195,53 @@ TEST(Map, Map) {
 	for (int j = 0; j < map->islands.size(); ++j) {
 		map->islands[j]->width();
 	}
-}*/
+}
+
+
+TEST(Stress, Ships) {
+	Scandinavian_ship_factory scandinavian_fabric;
+	Japanese_ship_factory japanese_fabric;
+    	Ship_type heavy_jpn("JPN", "HVY"), light_jpn("JPN", "LGT"), colonists_jpn("JPN", "CLN");
+    	Ship_type heavy_scn("SCN", "HVY"), light_scn("SCN", "LGT"), colonists_scn("SCN", "CLN");
+    	std::vector <Ship *> fleet(STRESS_MAXN);
+    	for (int j = 0; j < fleet.size() >> 1; j++) {
+        	if (j % 3 == 0)
+            		fleet[j] = scandinavian_fabric.create_heavy_ship(& heavy_scn);
+       		else if (j % 3 == 1)
+            		fleet[j] = scandinavian_fabric.create_light_ship(& light_scn);
+        	else
+            		fleet[j] = scandinavian_fabric.create_colonists_ship(& colonists_scn);
+    	}
+    	for (int j = 0; j < fleet.size() >> 1; ++j) {
+        	if (j % 3 == 0)
+            		fleet[fleet.size() - 1 - j] = japanese_fabric.create_heavy_ship(& heavy_jpn);
+        	else if (j % 3 == 1)
+            		fleet[fleet.size() - 1 - j] = japanese_fabric.create_light_ship(& light_jpn);
+        	else
+            		fleet[fleet.size() - 1 - j] = japanese_fabric.create_colonists_ship(& colonists_jpn);
+    	}
+
+}
+
+TEST(Stress, buildings) {
+    Scandinavian_building_factory scandinavian_fabric;
+    Japanese_building_factory japanese_fabric;
+    std::vector <Building *> buildings(STRESS_MAXN);
+    for (int j = 0; j < buildings.size() >> 1; j++) {
+        if (j % 3 == 0)
+            buildings[j] = scandinavian_fabric.create_sawmill();
+        else if (j % 3 == 1)
+            buildings[j] = scandinavian_fabric.create_mine();
+        else
+            buildings[j] = scandinavian_fabric.create_gun();
+    }
+    for (int j = 0; j < buildings.size() >> 1; ++j) {
+        if (j % 3 == 0)
+            buildings[buildings.size() - 1 - j] = japanese_fabric.create_sawmill();
+        else if (j % 3 == 1)
+            buildings[buildings.size() - 1 - j] = japanese_fabric.create_mine();
+        else
+            buildings[buildings.size() - 1 - j] = japanese_fabric.create_gun();
+    }
+}
+
