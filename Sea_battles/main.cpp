@@ -30,7 +30,7 @@ int main(int argc, char * argv[]) {
 	Japanese_ship_factory factory;
 	Japanese_heavy_ship * ship = factory.create_heavy_ship(&type);
 	map.ships.push_back(ship);
-	ship->set_position({current_video_mode.width >> 1, current_video_mode.height >> 1});
+	ship->set_position({current_video_mode.width / 2, current_video_mode.height / 2});
 	
 	point cur_pos = ship->get_position();
 	for (int j = 0; j < 100; j++) {
