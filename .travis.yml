@@ -1,5 +1,7 @@
 language: cpp
-compiler: gcc
+compiler: 
+        - gcc
+        - clang
 
 before_install:
         - sudo apt-get install libsfml-dev
@@ -11,5 +13,4 @@ script:
 notifications:
         email:
                 - uslon@yahoo.com
- 
 
