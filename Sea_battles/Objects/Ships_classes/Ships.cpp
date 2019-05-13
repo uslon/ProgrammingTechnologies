@@ -12,7 +12,7 @@ using std::string;
 
 const int colonists_ship_width = 20, light_ship_width = 20, heavy_ship_width = 30;
 const int colonists_ship_length = 30, light_ship_length = 40, heavy_ship_length = 60;
-const int default_pom = 10;
+const int default_pom = 2;
 
 std::unordered_map <string, std::pair<int, int> > Ship_type::size_of_ship = {
         {"CLN", {colonists_ship_width, colonists_ship_length} },
@@ -34,10 +34,10 @@ Ship_type::Ship_type(string nation, string type) {
 	else if (nation == "SCN") 
 		texture.loadFromFile("Textures/ship_blue_1.gif");
 	else
-		throw "Invalid nation";
+		throw (string)"Invalid nation";
 
 	if (size_of_ship.find(type) == size_of_ship.end())
-		throw "Invalid type";
+		throw (string)"Invalid type";
 
 	auto pii = size_of_ship[type];
 	width = pii.first, length = pii.second;

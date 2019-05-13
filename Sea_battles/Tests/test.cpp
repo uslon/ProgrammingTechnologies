@@ -14,6 +14,7 @@
 #include <vector>
 
 using std::cout;
+using std::string;
 
 const int STRESS_MAXN = 3e6, MAXN = 100;
 
@@ -245,3 +246,7 @@ TEST(Stress, buildings) {
     }
 }
 
+TEST(Exception, Ship) {
+	EXPECT_THROW(Ship_type type("FRA", "CLN"), string);// "Invalid nation");
+	EXPECT_THROW(Ship_type secont_type("JPN", "FRG"), string);// "Invalid type");
+}
